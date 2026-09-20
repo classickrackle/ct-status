@@ -1,16 +1,16 @@
 COPYTRADER STATUS
-generated: 2026-09-20T23:06:39.912Z
+generated: 2026-09-20T23:14:09.826Z
 
 ===== SERVICE =====
 state:        active
-running since Sun 2026-09-20 23:06:34 UTC
+running since Sun 2026-09-20 23:14:04 UTC
 restarts:     0
-warn/err in last 24h: 5
+warn/err in last 24h: 8
 
 ===== AT A GLANCE =====
 followed wallets: 1
-open positions:   ?
-trades recorded:  ?
+open positions:   0
+trades recorded:  0
 
 ===== SETTINGS (no keys) =====
 DRY_RUN=true
@@ -136,3 +136,49 @@ MAX_HOLD_HOURS=48
 2026-09-20T23:06:37+00:00 Copytrader copytrader[11786]: [2026-09-20T23:06:37.824Z] [INFO] All 1 wallet subscription(s) confirmed by Helius.
 2026-09-20T23:06:38+00:00 Copytrader systemd[1]: /etc/systemd/system/copytrader.service:18: Unknown key name 'StartLimitIntervalSec' in section 'Service', ignoring.
 2026-09-20T23:06:39+00:00 Copytrader systemd[1]: /etc/systemd/system/copytrader.service:18: Unknown key name 'StartLimitIntervalSec' in section 'Service', ignoring.
+2026-09-20T23:07:36+00:00 Copytrader copytrader[11786]: [2026-09-20T23:07:36.437Z] [INFO] Wallet hunt pace: 1 active wallet(s) -> scanning every 1 h.
+2026-09-20T23:07:36+00:00 Copytrader copytrader[11786]: [2026-09-20T23:07:36.447Z] [INFO] Wallet hunt: scanning tokens 229-240 by volume, 7d window.
+2026-09-20T23:07:37+00:00 Copytrader copytrader[11786]: [2026-09-20T23:07:37.208Z] [WARN] Birdeye top_traders: HTTP 429, retrying in 1000ms (attempt 1/4)
+2026-09-20T23:08:11+00:00 Copytrader copytrader[11786]: [688B blob data]
+2026-09-20T23:14:03+00:00 Copytrader copytrader[11786]: [2026-09-20T23:14:03.838Z] [INFO] Received SIGTERM — flushing state and shutting down.
+2026-09-20T23:14:03+00:00 Copytrader systemd[1]: Stopping copytrader.service - Solana copy-trading bot...
+2026-09-20T23:14:04+00:00 Copytrader systemd[1]: copytrader.service: Deactivated successfully.
+2026-09-20T23:14:04+00:00 Copytrader systemd[1]: Stopped copytrader.service - Solana copy-trading bot.
+2026-09-20T23:14:04+00:00 Copytrader systemd[1]: copytrader.service: Consumed 3.363s CPU time, 66.3M memory peak, 0B memory swap peak.
+2026-09-20T23:14:04+00:00 Copytrader systemd[1]: Started copytrader.service - Solana copy-trading bot.
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:05.139Z] [INFO] Restored risk state: 0.0000 SOL spent on 2026-09-20, 0 tracked mint(s).
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:05.146Z] [INFO] Global fetch timeout: 15s.
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:05.378Z] [INFO] RPC pool: Helius -> public-mainnet
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:05.379Z] [INFO] Running preflight checks...
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:05.380Z] [INFO] Following 1 wallet(s) from followedWallets.json.
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]: ──────────────────────────────────────────────────────────────────────
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]:   ✓ Target wallets   1 valid address(es)
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]:   ✓ Exits            SL 50% / TP 0% / trailing 35% / max hold 48h
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]:   ✓ Jupiter API      connected (SOL $110.66)
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]:   ✓ Helius RPC       connected (slot 448876649)
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]:   ✓ Telegram         @Happytrad3s_bot connected
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]:   ! Trader wallet    46HH6cpwR2xJYbYr2MehNUQW92USSLghPXRXWCV4Mhmy has 0 SOL — fine for dry run, but fund it before going live
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]: ──────────────────────────────────────────────────────────────────────
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:05.771Z] [WARN] Preflight passed with 1 warning(s).
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:05.771Z] [INFO] Watching 1 wallet(s): eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt
+2026-09-20T23:14:05+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:05.771Z] [INFO] Mode: DRY RUN (no real swaps will be sent)
+2026-09-20T23:14:06+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:06.150Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
+2026-09-20T23:14:06+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:06.156Z] [INFO] Outcome follow-up running hourly (6h and 24h horizons).
+2026-09-20T23:14:06+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:06.159Z] [INFO] Auto-tune is off. Recommendations still appear on the dashboard for one-click apply.
+2026-09-20T23:14:06+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:06.168Z] [INFO] Wallet hunt on: every 1 min while no wallets, slowing as it finds some (cap 5, auto-follow).
+2026-09-20T23:14:06+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:06.171Z] [INFO] Exit monitor started: SL 50%, TP 0% (sell 50%), trailing 35%, max hold 48h, every 20s
+2026-09-20T23:14:06+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:06.382Z] [WARN] No DEAD_MANS_SWITCH_URL set. If this process dies, nothing will tell you — its own heartbeat can't report its own death. Set one up at healthchecks.io (free).
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.554Z] [INFO] Failover self-test:
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.555Z] [INFO]   OK   RPC: Helius               32ms  0.0000 SOL
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.555Z] [INFO]   OK   RPC: public-mainnet       43ms  0.0000 SOL
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.555Z] [INFO]   OK   Price: Jupiter            35ms  SOL $110.66
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.555Z] [INFO]   OK   Price: DexScreener        36ms  SOL $110.81
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.556Z] [INFO]   OK   Swap: Jupiter            175ms  0.01 SOL -> 1.11 USDC (quote only: wallet empty)
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.556Z] [INFO]   OK   Swap: Raydium            566ms  0.01 SOL -> 1.11 USDC
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.556Z] [INFO]   OK   WS: Helius               283ms  connected
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.558Z] [INFO] Auto-backup every 6h, keeping 20.
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.559Z] [INFO] Equity tracking is live-only — skipped in dry run (there's no real balance to track).
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.564Z] [INFO] Heartbeat every 12h.
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.574Z] [INFO] Dashboard running at http://localhost:3939 (bound to 127.0.0.1)
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.765Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
+2026-09-20T23:14:07+00:00 Copytrader copytrader[12839]: [2026-09-20T23:14:07.839Z] [INFO] All 1 wallet subscription(s) confirmed by Helius.
