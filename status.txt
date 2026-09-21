@@ -1,11 +1,11 @@
 COPYTRADER STATUS
-generated: 2026-09-21T06:23:05.843Z
+generated: 2026-09-21T06:33:06.141Z
 
 ===== SERVICE =====
 state:        active
-running since Mon 2026-09-21 00:16:52 UTC
+running since Mon 2026-09-21 06:32:41 UTC
 restarts:     0
-warn/err in last 24h: 31
+warn/err in last 24h: 32
 
 ===== AT A GLANCE =====
 followed wallets: 1
@@ -48,47 +48,6 @@ MAX_HOLD_HOURS=48
 …wgXnWfpDyLm65T4YA":{"ts":1789954837702,"passed":false,"reasons":["only 0% of their recent tokens are tradeable on Jupiter (0/18) — they operate somewhere we can't reach, so following them would produce almost no trades","about 24000 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":16,"swaps":1000,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.017118055555555556},"GxDC9e7SP9mzhDo4re5HbpLa2RW7gB9DtmThx4i4pXSq":{"ts":1789954853794,"passed":false,"reasons":["about 888 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":16,"swaps":37,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.014166666666666666},"7dGrdJRYtsNR8UYxZ3TnifXGjGc9eRYLq9sELwYpuuUu":{"ts":1789958429377,"passed":false,"reasons":["55% of their wins look like pump-and-dumps (<20min hold, +80%+ gain) — they know when the pump is scheduled; copying them makes you the exit liquidity","about 6960 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","median hold is 5.1m — this is a sniper/scalper. By the time your bot copies, the move is over.","negative realized PnL (-11.88 SOL) over the sampled window"],"wins":14,"swaps":290,"winRate":83.33333333333334,"totalPnlSol":-11.879552308278257,"medianHoldMin":5.066666666666666,"windowDays":0.027175925925925926},"FrhLfj81LRpMR3EwSSCGPzHmxsnoq8h628ne68vK5oMN":{"ts":1789958436167,"passed":false,"reasons":["only 0% of their recent tokens are tradeable on Jupiter (0/20) — they operate somewhere we can't reach, so following them would produce almost no trades","about 3057 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","negative realized PnL (-0.18 SOL) over the sampled window"],"wins":14,"swaps":981,"winRate":41.07142857142857,"totalPnlSol":-0.17753394670356043,"medianHoldMin":75.96666666666667,"windowDays":0.3209490740740741},"9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC":{"ts":1789962023713,"passed":false,"reasons":["about 23040 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","median hold is 3.1m — this is a sniper/scalper. By the time your bot copies, the move is over.","negative realized PnL (-0.07 SOL) over the sampled window"],"wins":15,"swaps":960,"winRate":39.130434782608695,"totalPnlSol":-0.07221128360699337,"medianHoldMin":3.058333333333333,"windowDays":0.00986111111111111},"CsVdJ8WH8Q9eHSTRpwtwN3TYApm24QnLKYUMNxJ3DaED":{"ts":1789965623990,"passed":false,"reasons":["about 23400 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","median hold is 1.1m — this is a sniper/scalper. By the time your bot copies, the move is over.","34% of trades held under 1 minute — not copyable","negative realized PnL (-0.08 SOL) over the sampled window"],"wins":14,"swaps":975,"winRate":28.28282828282828,"totalPnlSol":-0.08321058702947053,"medianHoldMin":1.15,"windowDays":0.004571759259259259},"MfDuWeqSHEqTFVYZ7LoexgAK9dxk7cy4DFJWjWMGVWa":{"ts":1789969223545,"passed":false,"reasons":["about 19272 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","median hold is 2.0m — this is a sniper/scalper. By the time your bot copies, the move is over.","38% of trades held under 1 minute — not copyable","negative realized PnL (-0.23 SOL) over the sampled window"],"wins":12,"swaps":803,"winRate":35.23809523809524,"totalPnlSol":-0.22850563284534192,"medianHoldMin":2.0166666666666666,"windowDays":0.00494212962962963}},"scanCount":26,"lastScanAt":1789969194860,"budget":{"day":"2026-09-21","birdeyeCu":2340,"heliusCredits":18000},"policy":3}
 
 ===== LOG (last 200 lines) =====
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]:   ! Trader wallet    46HH6cpwR2xJYbYr2MehNUQW92USSLghPXRXWCV4Mhmy has 0 SOL — fine for dry run, but fund it before going live
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]: ──────────────────────────────────────────────────────────────────────
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:31.106Z] [WARN] Preflight passed with 1 warning(s).
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:31.109Z] [INFO] Watching 1 wallet(s): eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:31.109Z] [INFO] Mode: DRY RUN (no real swaps will be sent)
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:31.511Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:31.513Z] [INFO] Outcome follow-up running hourly (6h and 24h horizons).
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:31.514Z] [INFO] Auto-tune is off. Recommendations still appear on the dashboard for one-click apply.
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:31.524Z] [INFO] Wallet hunt on: every 1 min while no wallets, slowing as it finds some (cap 5, auto-follow).
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:31.525Z] [INFO] Exit monitor started: SL 50%, TP 0% (sell 50%), trailing 35%, max hold 48h, every 20s
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:31.537Z] [INFO] Dead-man's switch pinging every 5 min.
-2026-09-20T23:38:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:31.547Z] [WARN] Dead-man's switch ping failed (1): fetch failed
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.720Z] [INFO] Failover self-test:
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.721Z] [INFO]   OK   RPC: Helius               30ms  0.0000 SOL
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.722Z] [INFO]   OK   RPC: public-mainnet       32ms  0.0000 SOL
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.722Z] [INFO]   OK   Price: Jupiter            31ms  SOL $110.95
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.723Z] [INFO]   OK   Price: DexScreener        39ms  SOL $111.02
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.724Z] [INFO]   OK   Swap: Jupiter            196ms  0.01 SOL -> 1.11 USDC (quote only: wallet empty)
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.724Z] [INFO]   OK   Swap: Raydium            547ms  0.01 SOL -> 1.11 USDC
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.724Z] [INFO]   OK   WS: Helius               305ms  connected
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.726Z] [INFO] Auto-backup every 6h, keeping 20.
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.727Z] [INFO] Equity tracking is live-only — skipped in dry run (there's no real balance to track).
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.733Z] [INFO] Heartbeat every 12h.
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.744Z] [INFO] Dashboard running at http://localhost:3939 (bound to 127.0.0.1)
-2026-09-20T23:38:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:32.945Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
-2026-09-20T23:38:33+00:00 Copytrader copytrader[15068]: [2026-09-20T23:38:33.021Z] [INFO] All 1 wallet subscription(s) confirmed by Helius.
-2026-09-20T23:39:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:39:31.525Z] [INFO] Wallet hunt pace: 1 active wallet(s) -> scanning every 1 h.
-2026-09-20T23:39:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:39:31.539Z] [INFO] Wallet hunt: scanning tokens 229-240 by volume, 7d window.
-2026-09-20T23:39:32+00:00 Copytrader copytrader[15068]: [2026-09-20T23:39:32.320Z] [WARN] Birdeye top_traders: HTTP 429, retrying in 1000ms (attempt 1/4)
-2026-09-20T23:40:04+00:00 Copytrader copytrader[15068]: [658B blob data]
-2026-09-20T23:43:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:43:31.543Z] [WARN] Dead-man's switch ping failed (2): fetch failed
-2026-09-20T23:48:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:48:31.542Z] [WARN] Dead-man's switch ping failed (3): fetch failed
-2026-09-20T23:53:31+00:00 Copytrader copytrader[15068]: [2026-09-20T23:53:31.541Z] [WARN] Dead-man's switch ping failed (4): fetch failed
-2026-09-20T23:54:43+00:00 Copytrader systemd[1]: Stopping copytrader.service - Solana copy-trading bot...
-2026-09-20T23:54:43+00:00 Copytrader copytrader[15068]: [2026-09-20T23:54:43.349Z] [INFO] Received SIGTERM — flushing state and shutting down.
-2026-09-20T23:54:43+00:00 Copytrader systemd[1]: copytrader.service: Deactivated successfully.
-2026-09-20T23:54:43+00:00 Copytrader systemd[1]: Stopped copytrader.service - Solana copy-trading bot.
-2026-09-20T23:54:43+00:00 Copytrader systemd[1]: copytrader.service: Consumed 4.972s CPU time, 68.8M memory peak, 0B memory swap peak.
-2026-09-20T23:54:43+00:00 Copytrader systemd[1]: Started copytrader.service - Solana copy-trading bot.
-2026-09-20T23:54:44+00:00 Copytrader copytrader[16215]: [2026-09-20T23:54:44.628Z] [INFO] Restored risk state: 0.0000 SOL spent on 2026-09-20, 0 tracked mint(s).
-2026-09-20T23:54:44+00:00 Copytrader copytrader[16215]: [2026-09-20T23:54:44.635Z] [INFO] Global fetch timeout: 15s.
 2026-09-20T23:54:44+00:00 Copytrader copytrader[16215]: [2026-09-20T23:54:44.869Z] [INFO] RPC pool: Helius -> public-mainnet
 2026-09-20T23:54:44+00:00 Copytrader copytrader[16215]: [2026-09-20T23:54:44.870Z] [INFO] Running preflight checks...
 2026-09-20T23:54:44+00:00 Copytrader copytrader[16215]: [2026-09-20T23:54:44.870Z] [INFO] Following 1 wallet(s) from followedWallets.json.
@@ -248,3 +207,44 @@ MAX_HOLD_HOURS=48
 2026-09-21T05:39:55+00:00 Copytrader copytrader[18760]: [2026-09-21T05:39:55.645Z] [WARN] Birdeye top_traders: HTTP 429, retrying in 1000ms (attempt 1/4)
 2026-09-21T05:40:26+00:00 Copytrader copytrader[18760]: [568B blob data]
 2026-09-21T06:16:54+00:00 Copytrader copytrader[18760]: [2026-09-21T06:16:54.752Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
+2026-09-21T06:32:40+00:00 Copytrader systemd[1]: Stopping copytrader.service - Solana copy-trading bot...
+2026-09-21T06:32:40+00:00 Copytrader copytrader[18760]: [2026-09-21T06:32:40.497Z] [INFO] Received SIGTERM — flushing state and shutting down.
+2026-09-21T06:32:41+00:00 Copytrader systemd[1]: copytrader.service: Deactivated successfully.
+2026-09-21T06:32:41+00:00 Copytrader systemd[1]: Stopped copytrader.service - Solana copy-trading bot.
+2026-09-21T06:32:41+00:00 Copytrader systemd[1]: copytrader.service: Consumed 33.874s CPU time, 95.3M memory peak, 0B memory swap peak.
+2026-09-21T06:32:45+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:45.643Z] [INFO] Restored risk state: 0.0000 SOL spent on 2026-09-20, 0 tracked mint(s).
+2026-09-21T06:32:45+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:45.671Z] [INFO] Global fetch timeout: 15s.
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:46.191Z] [INFO] RPC pool: Helius -> public-mainnet
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:46.193Z] [INFO] Running preflight checks...
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:46.197Z] [INFO] Following 1 wallet(s) from followedWallets.json.
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]: ──────────────────────────────────────────────────────────────────────
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]:   ✓ Target wallets   1 valid address(es)
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]:   ✓ Exits            SL 50% / TP 0% / trailing 35% / max hold 48h
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]:   ✓ Jupiter API      connected (SOL $112.32)
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]:   ✓ Helius RPC       connected (slot 448975259)
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]:   ✓ Telegram         @Happytrad3s_bot connected
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]:   ! Trader wallet    46HH6cpwR2xJYbYr2MehNUQW92USSLghPXRXWCV4Mhmy has 0 SOL — fine for dry run, but fund it before going live
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]: ──────────────────────────────────────────────────────────────────────
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:46.909Z] [WARN] Preflight passed with 1 warning(s).
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:46.910Z] [INFO] Watching 1 wallet(s): eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt
+2026-09-21T06:32:46+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:46.915Z] [INFO] Mode: DRY RUN (no real swaps will be sent)
+2026-09-21T06:32:47+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:47.368Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
+2026-09-21T06:32:47+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:47.371Z] [INFO] Outcome follow-up running hourly (6h and 24h horizons).
+2026-09-21T06:32:47+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:47.374Z] [INFO] Auto-tune is off. Recommendations still appear on the dashboard for one-click apply.
+2026-09-21T06:32:47+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:47.402Z] [INFO] Wallet hunt on: every 1 min while no wallets, slowing as it finds some (cap 5, auto-follow).
+2026-09-21T06:32:47+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:47.405Z] [INFO] Exit monitor started: SL 50%, TP 0% (sell 50%), trailing 35%, max hold 48h, every 20s
+2026-09-21T06:32:47+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:47.422Z] [INFO] Dead-man's switch pinging every 5 min.
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.760Z] [INFO] Failover self-test:
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.761Z] [INFO]   OK   RPC: Helius               46ms  0.0000 SOL
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.762Z] [INFO]   OK   RPC: public-mainnet       79ms  0.0000 SOL
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.764Z] [INFO]   OK   Price: Jupiter            41ms  SOL $112.32
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.764Z] [INFO]   OK   Price: DexScreener        70ms  SOL $112.40
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.764Z] [INFO]   OK   Swap: Jupiter            182ms  0.01 SOL -> 1.12 USDC (quote only: wallet empty)
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.764Z] [INFO]   OK   Swap: Raydium            580ms  0.01 SOL -> 1.12 USDC
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.764Z] [INFO]   OK   WS: Helius               333ms  connected
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.769Z] [INFO] Auto-backup every 6h, keeping 20.
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.771Z] [INFO] Equity tracking is live-only — skipped in dry run (there's no real balance to track).
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.779Z] [INFO] Heartbeat every 12h.
+2026-09-21T06:32:48+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:48.804Z] [INFO] Dashboard running at http://localhost:3939 (bound to 127.0.0.1)
+2026-09-21T06:32:49+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:49.048Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
+2026-09-21T06:32:49+00:00 Copytrader copytrader[42029]: [2026-09-21T06:32:49.129Z] [INFO] All 1 wallet subscription(s) confirmed by Helius.
