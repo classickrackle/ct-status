@@ -1,11 +1,11 @@
 COPYTRADER STATUS
-generated: 2026-09-21T13:07:55.825Z
+generated: 2026-09-21T13:17:55.916Z
 
 ===== SERVICE =====
 state:        active
 running since Mon 2026-09-21 09:08:43 UTC
 restarts:     0
-warn/err in last 24h: 42
+warn/err in last 24h: 43
 
 ===== AT A GLANCE =====
 followed wallets: 1
@@ -48,8 +48,6 @@ MAX_HOLD_HOURS=48
 …h","median hold is 57s — this is a sniper/scalper. By the time your bot copies, the move is over.","52% of trades held under 1 minute — not copyable"],"wins":10,"swaps":991,"winRate":65.02732240437157,"totalPnlSol":224.65018209396334,"medianHoldMin":0.95,"windowDays":0.003321759259259259},"888enCW7bJD1JGJdJpK41wKYdBvRacvMW5qqbynckJ16":{"ts":1789987334848,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":10,"swaps":415,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":1.423900462962963},"HxjwdF326ZunmUwC1iXhfgL3ku78YsksN6n7Rfxzwr6b":{"ts":1789987344698,"passed":false,"reasons":["about 995 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":10,"swaps":484,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.48619212962962965},"FJx61bqznoVfVDFoujYGgJoJsJq4DxDQ8K3YG5kgRm6G":{"ts":1789987352376,"passed":false,"reasons":["only 0% of their recent tokens are tradeable on Jupiter (0/20) — they operate somewhere we can't reach, so following them would produce almost no trades","about 23520 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","median hold is 6.1m — this is a sniper/scalper. By the time your bot copies, the move is over.","negative realized PnL (-95.45 SOL) over the sampled window"],"wins":10,"swaps":980,"winRate":2.2988505747126435,"totalPnlSol":-95.45490244953659,"medianHoldMin":6.091666666666667,"windowDays":0.03993055555555555},"8NQ32SyFKD1d5kenq4oM8Da6C6J9TQSMW1uAgFRveEQr":{"ts":1789990939171,"passed":false,"reasons":["about 424 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":10,"swaps":63,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.14842592592592593},"dmuXAmcXJcdNuK264vsJQNBpVBPAx4JLujBzBMahJ6C":{"ts":1789990947467,"passed":false,"reasons":["only 20% of their recent tokens are tradeable on Jupiter (4/20) — they operate somewhere we can't reach, so following them would produce almost no trades","about 606 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","negative realized PnL (-1552.96 SOL) over the sampled window"],"wins":9,"swaps":635,"winRate":45.433255269320846,"totalPnlSol":-1552.960875634982,"medianHoldMin":270.03333333333336,"windowDays":1.0487152777777777},"9FMUjZHCJEeoz1Au9RB7RsgCEeaDfQ164TToKfixCSHi":{"ts":1789994532763,"passed":false,"reasons":["about 6334 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch"],"wins":9,"swaps":642,"winRate":52.25225225225225,"totalPnlSol":0.4433711286539084,"medianHoldMin":21.108333333333334,"windowDays":0.10135416666666666},"CatyeC3LgBxub7HcpW2n7cZZZ66CUKdcZ8DzHucHrSiP":{"ts":1789994545853,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":9,"swaps":130,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":1.3995949074074074},"4GQeEya6ZTwvXre4Br6ZfDyfe2WQMkcDz2QbkJZazVqS":{"ts":1789994553767,"passed":false,"reasons":["only 0% of their recent tokens are tradeable on Jupiter (0/20) — they operate somewhere we can't reach, so following them would produce almost no trades","about 2650 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch"],"wins":8,"swaps":999,"winRate":53.2608695652174,"totalPnlSol":33.08022381579019,"medianHoldMin":86.75,"windowDays":0.37700231481481483}},"scanCount":33,"lastScanAt":1789994505890,"budget":{"day":"2026-09-21","birdeyeCu":5070,"heliusCredits":39000},"policy":3}
 
 ===== LOG (last 200 lines) =====
-2026-09-21T00:16:52+00:00 Copytrader copytrader[17481]: [2026-09-21T00:16:52.097Z] [INFO] Received SIGTERM — flushing state and shutting down.
-2026-09-21T00:16:52+00:00 Copytrader systemd[1]: Stopping copytrader.service - Solana copy-trading bot...
 2026-09-21T00:16:52+00:00 Copytrader systemd[1]: copytrader.service: Deactivated successfully.
 2026-09-21T00:16:52+00:00 Copytrader systemd[1]: Stopped copytrader.service - Solana copy-trading bot.
 2026-09-21T00:16:52+00:00 Copytrader systemd[1]: copytrader.service: Consumed 2.981s CPU time, 57.4M memory peak, 0B memory swap peak.
@@ -248,3 +246,5 @@ MAX_HOLD_HOURS=48
 2026-09-21T12:41:45+00:00 Copytrader copytrader[56012]: [2026-09-21T12:41:45.910Z] [INFO] Wallet hunt: scanning tokens 85-96 by volume, 14d window.
 2026-09-21T12:41:46+00:00 Copytrader copytrader[56012]: [2026-09-21T12:41:46.699Z] [WARN] Birdeye top_traders: HTTP 429, retrying in 1000ms (attempt 1/4)
 2026-09-21T12:42:33+00:00 Copytrader copytrader[56012]: [1.0K blob data]
+2026-09-21T13:08:45+00:00 Copytrader copytrader[56012]: [2026-09-21T13:08:45.890Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
+2026-09-21T13:08:50+00:00 Copytrader copytrader[56012]: [2026-09-21T13:08:50.235Z] [WARN] RPC switched to public-mainnet.
