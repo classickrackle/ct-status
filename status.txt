@@ -1,11 +1,11 @@
 COPYTRADER STATUS
-generated: 2026-09-22T00:24:15.820Z
+generated: 2026-09-22T00:34:45.829Z
 
 ===== SERVICE =====
 state:        active
 running since Tue 2026-09-22 00:05:06 UTC
 restarts:     0
-warn/err in last 24h: 49
+warn/err in last 24h: 50
 
 ===== AT A GLANCE =====
 followed wallets: 1
@@ -45,20 +45,19 @@ MAX_HOLD_HOURS=48
 (no file yet)
 
 ===== COPY LAG (last 24h) =====
-(no signals recorded yet)
+signals: 2   fills: 0
+their tx -> we see it:   median 1.0s
+their tx -> our fill:    median -
+our entry vs theirs:     median -   worst -
+
+last 5:
+  00:29:49 blocked Cjrx2B   seen 0.7s  total -  gap -
+  00:32:27 blocked Cjrx2B   seen 1.3s  total -  gap -
 
 ===== DISCOVERY STATE =====
 …,"5xkW7wHTcF5WadNtBBqKPKctVwyQtTqqscivAmxzseCk":{"ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY":{"pnl":281.9277387742269,"ts":1790034170225,"src":"birdeye"}},"9gHd7f2dDsEPFvN5Z4R4ST4d4FycbPMz5hdV3Kd4Ysis":{"ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY":{"pnl":119.37413013947557,"ts":1790034170225,"src":"birdeye"}},"CckZEk14rUmts7TsuX5znc2p2NBEJDbJfwZ5o8sjGRj2":{"ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY":{"pnl":62.17214844168342,"ts":1790034170225,"src":"birdeye"}},"FZMzXjRJ2bnShh7yTrGJYvijrXXaVgyHcL3xmxPq88jU":{"ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY":{"pnl":54.20411362674688,"ts":1790034170225,"src":"birdeye"}},"GsNp4pWJDrHuQ3apiPRkGKPSWiiqNnQXdP7xKa2YPkrg":{"BMgFz5gF76JuqR3qCdBM1SHHHAYyUroakavYVK6pump":{"pnl":1.2340781628020145,"ts":1790034171679,"src":"birdeye"}},"9uM9dZtVVFHhBuaRzrx95NZyL4BMaEy7Q21QHEfsQGUH":{"BMgFz5gF76JuqR3qCdBM1SHHHAYyUroakavYVK6pump":{"pnl":0.1898109762277019,"ts":1790034171679,"src":"birdeye"}},"KzY75zzvafYEB9TNY5aU196PkBR686h5hUnBqx3YdSt":{"BMgFz5gF76JuqR3qCdBM1SHHHAYyUroakavYVK6pump":{"pnl":0.12306503872813279,"ts":1790034171679,"src":"birdeye"}},"7T59E8a798QY8Zw8ajCAh4NyYR9QaVuQspE6LwgDoRDn":{"BMgFz5gF76JuqR3qCdBM1SHHHAYyUroakavYVK6pump":{"pnl":0.05206462600138539,"ts":1790034171679,"src":"birdeye"}},"D4N17XqubQbir3KqYUHTpQfh35asz7XktWPGFNMtFBP2":{"D6xWgRCSHoMEB5fqPwk3p6Stxirn5ytm2WwboSTTx4oE":{"pnl":661.7512502146843,"ts":1790034173152,"src":"birdeye"}},"BAkAeZoLkqsBHQhR5hNaa1H3zVQcxxpXMjQGZXaGX8Vv":{"D6xWgRCSHoMEB5fqPwk3p6Stxirn5ytm2WwboSTTx4oE":{"pnl":279.49175848226815,"ts":1790034173152,"src":"birdeye"}},"CYbbFBXjdiPFeeDYwvGGpkes2eGCfL1WAPP2FwTLvQFQ":{"D6xWgRCSHoMEB5fqPwk3p6Stxirn5ytm2WwboSTTx4oE":{"pnl":277.573297228909,"ts":1790034173152,"src":"birdeye"}},"6Ymy3DkhiRhHorgLhobHubMKK6Wk7uYQdSgKUNT7ePMD":{"D6xWgRCSHoMEB5fqPwk3p6Stxirn5ytm2WwboSTTx4oE":{"pnl":169.62506560692466,"ts":1790034173152,"src":"birdeye"}},"3BH2uRNcbVhCJNxoHqiwP8gXV69LmAtPxdaaRR9DzJ1a":{"D6xWgRCSHoMEB5fqPwk3p6Stxirn5ytm2WwboSTTx4oE":{"pnl":44.69502408988564,"ts":1790034173152,"src":"birdeye"}},"ENcEPAeuCY4TS643AWixHUeACtCigvWnGUTu7ZFDLesv":{"D6xWgRCSHoMEB5fqPwk3p6Stxirn5ytm2WwboSTTx4oE":{"pnl":31.507229686947216,"ts":1790034173152,"src":"birdeye"}},"4zgErcHp4vJfd1VRCpyBfSWn5wVdThRCthNxASvMEqLF":{"D6xWgRCSHoMEB5fqPwk3p6Stxirn5ytm2WwboSTTx4oE":{"pnl":26.5725668725391,"ts":1790034173152,"src":"birdeye"}},"ELr9ZkSup4umHjXPhWzVFb9nhKj7fuLL56N3b5A9d7G":{"D6xWgRCSHoMEB5fqPwk3p6Stxirn5ytm2WwboSTTx4oE":{"pnl":23.228385777904393,"ts":1790034173152,"src":"birdeye"}},"4dHPc5dD3Jhxh1HadP4xXEsKN5KCnYuzqdJsGkNZ6pzd":{"3nqHijNUExsnjNBb15WJsJ2xisyMVGN6FK4aUgZk1Rwj":{"pnl":34343.220760073,"ts":1790034174628,"src":"birdeye"}},"3zFnLrtJmVj3dvDNRsGTyir7uM663FShbi1XwBCRqfPQ":{"3nqHijNUExsnjNBb15WJsJ2xisyMVGN6FK4aUgZk1Rwj":{"pnl":33799.19034040413,"ts":1790034174628,"src":"birdeye"}},"BPjuxgARGFgBoMwJrMrhEmYat4TavCjW9wG9i3UZ1dbZ":{"3nqHijNUExsnjNBb15WJsJ2xisyMVGN6FK4aUgZk1Rwj":{"pnl":33337.13144000229,"ts":1790034174628,"src":"birdeye"}},"4XqYSrhf33K43SZxKmQ1DWRkdwDT4r4TuaV5yhUVA1jB":{"3nqHijNUExsnjNBb15WJsJ2xisyMVGN6FK4aUgZk1Rwj":{"pnl":32181.11640436014,"ts":1790034174628,"src":"birdeye"}},"EPoCf1nEcyTQLMviGVViMeSXh9k6V67N9VegZRvd54Fc":{"3nqHijNUExsnjNBb15WJsJ2xisyMVGN6FK4aUgZk1Rwj":{"pnl":29146.286662910643,"ts":1790034174628,"src":"birdeye"}},"CVfyypa4rLTGqcv1Zabj7xqQmMRmPSTofdsfSi4taiSc":{"3nqHijNUExsnjNBb15WJsJ2xisyMVGN6FK4aUgZk1Rwj":{"pnl":28547.356624919663,"ts":1790034174628,"src":"birdeye"}},"2pbhXEEvmBQsNTtjxLGTht4F4Z2MV3cC1TxrrfDhQecG":{"3nqHijNUExsnjNBb15WJsJ2xisyMVGN6FK4aUgZk1Rwj":{"pnl":28132.054903928343,"ts":1790034174628,"src":"birdeye"}},"8TsmWeCXaHzJWrnH2P9uMsxdiY9DaWA7DiK9kzhwy8wm":{"3nqHijNUExsnjNBb15WJsJ2xisyMVGN6FK4aUgZk1Rwj":{"pnl":27750.03677390896,"ts":1790034174628,"src":"birdeye"}}},"rejected":{},"vetted":{},"scanCount":44,"lastScanAt":1790034155868,"budget":{"day":"2026-09-21","birdeyeCu":9360,"heliusCredits":40000},"policy":5,"sourceStats":{"birdeye":{"nominated":84,"vetted":0,"passed":0,"screened":0}}}
 
 ===== LOG (last 200 lines) =====
-2026-09-21T23:06:08+00:00 Copytrader copytrader[67329]: [2026-09-21T23:06:08.293Z] [INFO]   OK   RPC: Helius               21ms  0.0000 SOL
-2026-09-21T23:06:08+00:00 Copytrader copytrader[67329]: [2026-09-21T23:06:08.293Z] [INFO]   OK   RPC: public-mainnet       50ms  0.0000 SOL
-2026-09-21T23:06:08+00:00 Copytrader copytrader[67329]: [2026-09-21T23:06:08.293Z] [INFO]   OK   Price: Jupiter            31ms  SOL $119.85
-2026-09-21T23:06:08+00:00 Copytrader copytrader[67329]: [2026-09-21T23:06:08.293Z] [INFO]   OK   Price: DexScreener        34ms  SOL $119.74
-2026-09-21T23:06:08+00:00 Copytrader copytrader[67329]: [2026-09-21T23:06:08.293Z] [INFO]   OK   Swap: Jupiter            151ms  0.01 SOL -> 1.20 USDC (quote only: wallet empty)
-2026-09-21T23:06:08+00:00 Copytrader copytrader[67329]: [2026-09-21T23:06:08.294Z] [INFO]   OK   Swap: Raydium            539ms  0.01 SOL -> 1.20 USDC
-2026-09-21T23:06:08+00:00 Copytrader copytrader[67329]: [2026-09-21T23:06:08.294Z] [INFO]   OK   WS: Helius               265ms  connected
-2026-09-21T23:06:08+00:00 Copytrader copytrader[67329]: [2026-09-21T23:06:08.296Z] [INFO] Auto-backup every 6h, keeping 20.
 2026-09-21T23:06:08+00:00 Copytrader copytrader[67329]: [2026-09-21T23:06:08.297Z] [INFO] Equity tracking is live-only — skipped in dry run (there's no real balance to track).
 2026-09-21T23:06:08+00:00 Copytrader copytrader[67329]: [2026-09-21T23:06:08.299Z] [INFO] Heartbeat every 12h.
 2026-09-21T23:06:08+00:00 Copytrader copytrader[67329]: [2026-09-21T23:06:08.308Z] [INFO] Dashboard running at http://localhost:3939 (bound to 127.0.0.1)
@@ -251,3 +250,11 @@ MAX_HOLD_HOURS=48
 2026-09-22T00:05:10+00:00 Copytrader copytrader[68523]: [2026-09-22T00:05:10.340Z] [INFO] All 1 wallet subscription(s) confirmed by Helius.
 2026-09-22T00:06:08+00:00 Copytrader copytrader[68523]: [2026-09-22T00:06:08.689Z] [INFO] Wallet hunt pace: 1 active wallet(s) -> scanning every 1 h.
 2026-09-22T00:07:09+00:00 Copytrader copytrader[68523]: [2026-09-22T00:07:09.970Z] [INFO] Pruned 2 old backup(s), keeping the newest 20.
+2026-09-22T00:29:50+00:00 Copytrader copytrader[68523]: [2026-09-22T00:29:50.636Z] [INFO] Detected swap by eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt: sold So11111111111111111111111111111111111111112 -> bought Cjrx2BLZVSbEf1JDKjLtGiM8W4Zn9DL3X38yPiPpump (sig 2Fa45TLPKDWF5L2Jy7UcqD889Pk9UZqNtVQAn2HX6hUjb4oAwN4E8aeWmRNB2jDqXyUoFsWGuvtzq3xYiQ7eUqWj)
+2026-09-22T00:29:50+00:00 Copytrader copytrader[68523]: [2026-09-22T00:29:50.739Z] [WARN] Filtered out Cjrx2BLZVSbEf1JDKjLtGiM8W4Zn9DL3X38yPiPpump: liquidity $23300 < min $30000
+2026-09-22T00:29:50+00:00 Copytrader copytrader[68523]: [2026-09-22T00:29:50.741Z] [INFO] Copy lag blocked: their tx → seen 0.7s, parse 0.9s
+2026-09-22T00:31:35+00:00 Copytrader copytrader[68523]: [2026-09-22T00:31:35.275Z] [INFO] Detected swap by eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt: sold Cjrx2BLZVSbEf1JDKjLtGiM8W4Zn9DL3X38yPiPpump -> bought So11111111111111111111111111111111111111112 (sig 35gD7tr6j2Qep8pCoNoNPro6iMGsLGdjracJdMQdzhmgYuFVUB2wFoSGYf7A4b81kwTMh2kGuyxJaArvZffvgwHj)
+2026-09-22T00:31:35+00:00 Copytrader copytrader[68523]: [2026-09-22T00:31:35.275Z] [INFO] Ignoring swap we can't act on (sig 35gD7tr6j2Qep8pCoNoNPro6iMGsLGdjracJdMQdzhmgYuFVUB2wFoSGYf7A4b81kwTMh2kGuyxJaArvZffvgwHj): Cjrx2B -> So1111
+2026-09-22T00:32:27+00:00 Copytrader copytrader[68523]: [2026-09-22T00:32:27.418Z] [INFO] Detected swap by eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt: sold So11111111111111111111111111111111111111112 -> bought Cjrx2BLZVSbEf1JDKjLtGiM8W4Zn9DL3X38yPiPpump (sig 3GjyBhCLAVBEv2XTQ23nQDXeasvdCHAhTQFCZxCfFkojJKD8gQYQXP6ejUcFr7Pc1BuS1FqhCQekhoQbonCRGqBA)
+2026-09-22T00:32:27+00:00 Copytrader copytrader[68523]: [2026-09-22T00:32:27.488Z] [WARN] Filtered out Cjrx2BLZVSbEf1JDKjLtGiM8W4Zn9DL3X38yPiPpump: liquidity $12952 < min $30000
+2026-09-22T00:32:27+00:00 Copytrader copytrader[68523]: [2026-09-22T00:32:27.489Z] [INFO] Copy lag blocked: their tx → seen 1.3s, parse 0.1s
