@@ -1,11 +1,11 @@
 COPYTRADER STATUS
-generated: 2026-09-22T21:36:39.952Z
+generated: 2026-09-22T21:47:05.830Z
 
 ===== SERVICE =====
 state:        active
 running since Tue 2026-09-22 21:24:05 UTC
 restarts:     0
-warn/err in last 24h: 63
+warn/err in last 24h: 66
 
 ===== AT A GLANCE =====
 followed wallets: 3
@@ -57,35 +57,22 @@ MAX_HOLD_HOURS=48
 (no file yet)
 
 ===== COPY LAG (last 24h) =====
-signals: 32   fills: 0
-their tx -> we see it:   median 1.0s
+signals: 36   fills: 0
+their tx -> we see it:   median 0.9s
 their tx -> our fill:    median -
 our entry vs theirs:     median -   worst -
 
 last 5:
-  18:12:15 blocked EEY9ba   seen 1.3s  total -  gap -
-  19:25:18 blocked GuAyLS   seen 1.1s  total -  gap -
-  20:21:33 blocked 5THtNE   seen 0.9s  total -  gap -
-  20:22:01 blocked 3V4Frx   seen 0.6s  total -  gap -
   20:22:19 blocked 9Eufcq   seen 1.2s  total -  gap -
+  21:37:23 blocked EEY9ba   seen 1.3s  total -  gap -
+  21:39:27 blocked tZQ8QS   seen 0.7s  total -  gap -
+  21:39:36 blocked j4Zpc3   seen 0.6s  total -  gap -
+  21:39:36 blocked j4Zpc3   seen 0.6s  total -  gap -
 
 ===== DISCOVERY STATE =====
 … on a 1-credit check instead of a 1000-credit vet"],"wins":15,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"8NQ32SyFKD1d5kenq4oM8Da6C6J9TQSMW1uAgFRveEQr":{"ts":1790077411876,"passed":false,"reasons":["about 28217 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":15,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"2Fast4uUABWcrab6LevwhTx5xx84mwahhV2bLJFTYgN4":{"ts":1790084611352,"passed":false,"reasons":["about 1036 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":16,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"dmuXAmcXJcdNuK264vsJQNBpVBPAx4JLujBzBMahJ6C":{"ts":1790084622863,"passed":false,"reasons":["about 462 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","negative realized PnL (-1394.87 SOL) over the sampled window"],"wins":14,"swaps":684,"winRate":52.26781857451404,"totalPnlSol":-1394.8734089607233,"medianHoldMin":240.05,"windowDays":1.4795486111111111},"Hasda78TSaT9bjiPxDBvP4GpohFpP3TDTaJEcCYK5kyN":{"ts":1790084623206,"passed":false,"reasons":["about 129341 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":14,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"CreQJ2t94QK5dsxUZGXfPJ8Nx7wA9LHr5chxjSMkbNft":{"ts":1790091813129,"passed":false,"reasons":["about 58537 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":13,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"R32xAccFis3YzBzGwZ1C4QkGiehLxSao7gDmErA3kjk":{"ts":1790091820855,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":12,"swaps":2,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.005636574074074074},"9FMUjZHCJEeoz1Au9RB7RsgCEeaDfQ164TToKfixCSHi":{"ts":1790091821273,"passed":false,"reasons":["about 19632 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":12,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"CatyeC3LgBxub7HcpW2n7cZZZ66CUKdcZ8DzHucHrSiP":{"ts":1790099012943,"passed":false,"reasons":["about 115508 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":12,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"FkaLnX17cXZGyeu3kZGdHCNdFMJJzBrPPYVvd18B3MZp":{"ts":1790099017879,"passed":false,"reasons":["about 22344 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch","median hold is 4.2m — this is a sniper/scalper. By the time your bot copies, the move is over."],"wins":11,"swaps":931,"winRate":40.14336917562724,"totalPnlSol":42.532810670154866,"medianHoldMin":4.2,"windowDays":0.01318287037037037},"MRiYA4oN3158fCV8evhuCofrDzbHyYvYnGZUDJvoCsa":{"ts":1790106224703,"passed":true,"reasons":[],"wins":12,"swaps":42,"winRate":88.88888888888889,"totalPnlSol":0.35988290940116563,"medianHoldMin":43.766666666666666,"windowDays":11.666087962962964},"VJSDW6S74YXR4rRR9P4xwhMvLZJQMhrUb8XMFirUsy1":{"ts":1790106228690,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":11,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.0006365740740740741}},"scanCount":56,"lastScanAt":1790106189395,"budget":{"day":"2026-09-22","birdeyeCu":4680,"heliusCredits":18836},"policy":5,"sourceStats":{"birdeye":{"nominated":951,"vetted":14,"passed":2,"screened":22},"crawl":{"nominated":58,"vetted":1,"passed":1,"screened":4}}}
 
 ===== LOG (last 200 lines) =====
-2026-09-22T20:02:53+00:00 Copytrader copytrader[85689]: [2026-09-22T20:02:53.851Z] [INFO] Heartbeat every 12h.
-2026-09-22T20:02:53+00:00 Copytrader copytrader[85689]: [2026-09-22T20:02:53.859Z] [INFO] Dashboard running at http://localhost:3939 (bound to 127.0.0.1)
-2026-09-22T20:02:54+00:00 Copytrader copytrader[85689]: [2026-09-22T20:02:54.065Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
-2026-09-22T20:02:54+00:00 Copytrader copytrader[85689]: [2026-09-22T20:02:54.141Z] [INFO] All 3 wallet subscription(s) confirmed by Helius.
-2026-09-22T20:03:52+00:00 Copytrader copytrader[85689]: [2026-09-22T20:03:52.508Z] [INFO] Wallet hunt pace: 3 active wallet(s) -> scanning every 4 h.
-2026-09-22T20:03:52+00:00 Copytrader copytrader[85689]: [2026-09-22T20:03:52.571Z] [INFO] Outcome follow-up: recorded 1 result(s) at the 24h mark.
-2026-09-22T20:04:53+00:00 Copytrader copytrader[85689]: [2026-09-22T20:04:53.858Z] [INFO] Pruned 2 old backup(s), keeping the newest 20.
-2026-09-22T20:21:34+00:00 Copytrader copytrader[85689]: [2026-09-22T20:21:34.866Z] [INFO] Detected swap by eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt: sold So11111111111111111111111111111111111111112 -> bought 5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump (sig 31EjQzEMhfptektDjbdB4rvRhUvnEkS6zNpuf2hkguB6xYa3SKMaY3tFyA98cYJkpWvEXF922GLyzaDBmH2LUJGq)
-2026-09-22T20:21:34+00:00 Copytrader copytrader[85689]: [2026-09-22T20:21:34.995Z] [WARN] Filtered out 5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump: liquidity $16868 < min $30000
-2026-09-22T20:21:34+00:00 Copytrader copytrader[85689]: [2026-09-22T20:21:34.996Z] [INFO] Copy lag blocked: their tx → seen 0.9s, parse 0.9s
-2026-09-22T20:22:02+00:00 Copytrader copytrader[85689]: [2026-09-22T20:22:02.622Z] [INFO] Detected swap by eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt: sold So11111111111111111111111111111111111111112 -> bought 3V4FrxdxKgVbkYVAQ98ScSbkYx2ra5KVedKeZeWpXDWZ (sig 2dk2yk2j7Xuj6Y3rfacjZTJakfC1fBtdhtHn9TZi2HsTRpqB4KMUoGJZsPNeZR35XpYxdEHs8f8ah1wFuEevtW2Q)
-2026-09-22T20:22:02+00:00 Copytrader copytrader[85689]: [2026-09-22T20:22:02.696Z] [WARN] Filtered out 3V4FrxdxKgVbkYVAQ98ScSbkYx2ra5KVedKeZeWpXDWZ: liquidity $10643 < min $30000
-2026-09-22T20:22:02+00:00 Copytrader copytrader[85689]: [2026-09-22T20:22:02.697Z] [INFO] Copy lag blocked: their tx → seen 0.6s, parse 1.0s
 2026-09-22T20:22:20+00:00 Copytrader copytrader[85689]: [2026-09-22T20:22:20.220Z] [INFO] Detected swap by eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt: sold So11111111111111111111111111111111111111112 -> bought 9Eufcq8yqukb4A9eUTAXrRpzB7aKTdAuUnqe75ttpump (sig 5mHwmt5NFZxy1D4LQABpQSyj4E597TWXYMsh2ayRgvG3GaSsvgBAtxhkXyTQcpvviQPBtuxrE5uAX6wewpJkZEYY)
 2026-09-22T20:22:20+00:00 Copytrader copytrader[85689]: [2026-09-22T20:22:20.298Z] [WARN] Filtered out 9Eufcq8yqukb4A9eUTAXrRpzB7aKTdAuUnqe75ttpump: liquidity $12711 < min $30000
 2026-09-22T20:22:20+00:00 Copytrader copytrader[85689]: [2026-09-22T20:22:20.299Z] [INFO] Copy lag blocked: their tx → seen 1.2s, parse 1.0s
@@ -273,3 +260,16 @@ last 5:
 2026-09-22T21:24:08+00:00 Copytrader copytrader[89437]: [2026-09-22T21:24:08.760Z] [INFO] All 3 wallet subscription(s) confirmed by Helius.
 2026-09-22T21:25:07+00:00 Copytrader copytrader[89437]: [2026-09-22T21:25:07.239Z] [INFO] Wallet hunt pace: 3 active wallet(s) -> scanning every 4 h.
 2026-09-22T21:26:08+00:00 Copytrader copytrader[89437]: [2026-09-22T21:26:08.456Z] [INFO] Pruned 3 old backup(s), keeping the newest 20.
+2026-09-22T21:37:23+00:00 Copytrader copytrader[89437]: [2026-09-22T21:37:23.405Z] [INFO] Detected swap by eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt: sold So11111111111111111111111111111111111111112 -> bought EEY9babi3Yep93sh9Ymmh1tB18WP4ASnCdTdrYzpump (sig 4gC1kX3fRZY6THkX2C9ZpCCf48aPGbh61TSvBzSeakG5EY3RbH1YpKCyDMwqLPkrUYaYhogEfnHApqrxz16Dw5H9)
+2026-09-22T21:37:23+00:00 Copytrader copytrader[89437]: [2026-09-22T21:37:23.520Z] [WARN] Filtered out EEY9babi3Yep93sh9Ymmh1tB18WP4ASnCdTdrYzpump: organic score 0 (low) < min 30
+2026-09-22T21:37:23+00:00 Copytrader copytrader[89437]: [2026-09-22T21:37:23.521Z] [INFO] Copy lag blocked: their tx → seen 1.3s, parse 0.1s
+2026-09-22T21:39:28+00:00 Copytrader copytrader[89437]: [2026-09-22T21:39:28.643Z] [INFO] Detected swap by eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt: sold So11111111111111111111111111111111111111112 -> bought tZQ8QSnPVg864CZLLKQNtVuqinyzsUnWMys93Hrpump (sig 4e5GgoPwcCDvzju6ouWhYSnb81ogEGauKKHYNxjoRDo9ZeguLsvB9ALMUtrqogovdLvdF5HYBN6XwCba7PEhy7L3)
+2026-09-22T21:39:28+00:00 Copytrader copytrader[89437]: [2026-09-22T21:39:28.720Z] [WARN] Filtered out tZQ8QSnPVg864CZLLKQNtVuqinyzsUnWMys93Hrpump: organic score 0 (low) < min 30
+2026-09-22T21:39:28+00:00 Copytrader copytrader[89437]: [2026-09-22T21:39:28.721Z] [INFO] Copy lag blocked: their tx → seen 0.7s, parse 0.9s
+2026-09-22T21:39:36+00:00 Copytrader copytrader[89437]: [2026-09-22T21:39:36.753Z] [INFO] Detected swap by eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt: sold So11111111111111111111111111111111111111112 -> bought j4Zpc3cd2VKbGF2QAVAZoukXaMo8G5WcCW9RRM5pump (sig 3piEUkZGPR5pSZb6KAYoeMX1csXPZgb376PacaRrBHPC6qj779NEGtG4k2yMx3r8NfjQK4DgAJ7vGez98dCmCTCA)
+2026-09-22T21:39:36+00:00 Copytrader copytrader[89437]: [2026-09-22T21:39:36.829Z] [WARN] Filtered out j4Zpc3cd2VKbGF2QAVAZoukXaMo8G5WcCW9RRM5pump: organic score 0 (low) < min 30
+2026-09-22T21:39:36+00:00 Copytrader copytrader[89437]: [2026-09-22T21:39:36.830Z] [INFO] Copy lag blocked: their tx → seen 0.6s, parse 0.2s
+2026-09-22T21:39:36+00:00 Copytrader copytrader[89437]: [2026-09-22T21:39:36.878Z] [INFO] Detected swap by eRQnSgUZda4ySn6j2ttEzbiW4428HEQzVtyzoJqqTtt: sold So11111111111111111111111111111111111111112 -> bought j4Zpc3cd2VKbGF2QAVAZoukXaMo8G5WcCW9RRM5pump (sig z9voLV1Vv2Dgg11niP98uFNTwq9rdfuQEMvGUBpDCZssZ67DSxbHAfvWJb96GNtaWdEr7W8he4ooK4JAPok35y2)
+2026-09-22T21:39:36+00:00 Copytrader copytrader[89437]: [2026-09-22T21:39:36.878Z] [INFO] Using cached filter result for j4Zpc3cd (0s old).
+2026-09-22T21:39:36+00:00 Copytrader copytrader[89437]: [2026-09-22T21:39:36.895Z] [WARN] Filtered out j4Zpc3cd2VKbGF2QAVAZoukXaMo8G5WcCW9RRM5pump: organic score 0 (low) < min 30
+2026-09-22T21:39:36+00:00 Copytrader copytrader[89437]: [2026-09-22T21:39:36.896Z] [INFO] Copy lag blocked: their tx → seen 0.6s, parse 0.3s
