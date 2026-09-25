@@ -1,11 +1,11 @@
 COPYTRADER STATUS
-generated: 2026-09-25T20:32:15.860Z
+generated: 2026-09-25T20:42:32.269Z
 
 ===== SERVICE =====
 state:        active
 running since Fri 2026-09-25 16:29:29 UTC
 restarts:     0
-warn/err in last 24h: 16
+warn/err in last 24h: 14
 
 ===== AT A GLANCE =====
 followed wallets: 3
@@ -297,14 +297,12 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
 }
 
 ===== COPY LAG (last 24h) =====
-signals: 5   fills: 2
-their tx -> we see it:   median 1.2s
+signals: 3   fills: 2
+their tx -> we see it:   median 1.5s
 their tx -> our fill:    median 2.8s
 our entry vs theirs:     median -0.2%   worst -0.2%
 
 last 5:
-  20:41:15 blocked 6sSUws   seen 0.7s  total -  gap -
-  20:41:26 blocked 6sSUws   seen 1.2s  total -  gap -
   11:12:17 bought  WOW      seen 1.2s  total 3.2s  gap -0.2%
   15:42:31 bought  CHUDDY   seen 1.5s  total 2.3s  gap -0.2%
   15:42:37 blocked 6sSUws   seen 1.6s  total -  gap -
