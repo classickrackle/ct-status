@@ -1,11 +1,11 @@
 COPYTRADER STATUS
-generated: 2026-10-31T02:51:15.893Z
+generated: 2026-10-31T03:01:43.144Z
 
 ===== SERVICE =====
 state:        active
 running since Fri 2026-10-23 22:58:07 UTC
 restarts:     0
-warn/err in last 24h: 106
+warn/err in last 24h: 105
 
 ===== AT A GLANCE =====
 followed wallets: 4
@@ -391,12 +391,12 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
 🔎 Filter audit — what tokens did 6h after the signal
 
 Bought: 31 token(s): median +0%, 55% up, 10% up 50%+, 0% dead
-All blocked: 263 token(s): median -1%, 46% up, 5% up 50%+, 2% dead
+All blocked: 264 token(s): median -1%, 47% up, 5% up 50%+, 2% dead
 Token-to-token entries (not copied): 1 token(s): median +86%, 100% up, 100% up 50%+, 0% dead
 
 By rule
 · deployer has minted N times — 88 token(s): median -1%, 47% up, 3% up 50%+, 0% dead
-· liquidity N < min N — 85 token(s): median -1%, 47% up, 4% up 50%+, 0% dead
+· liquidity N < min N — 86 token(s): median -1%, 48% up, 3% up 50%+, 0% dead
 · sell pressure: N buys vs N sells in the last hour — 29 token(s): median -1%, 48% up, 3% up 50%+, 0% dead
 🛡 volume fading: last hour is N of the Nh average — 26 token(s): median -4%, 35% up, 8% up 50%+, 0% dead
 · top holders own N > max N — 19 token(s): median -0%, 47% up, 0% up 50%+, 0% dead
@@ -457,7 +457,7 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
     }
    ],
    "note": "passed vetting 2026-10-28",
-   "lastSig": "r5NWvbnZ6sWku4ZTxDDmXdTUWU8HnAwMzX1CkxqkQ3AWoByGUJY6FRQ9BHBr3wNERxJGFLxtRGCQ9kAuifhb4DM"
+   "lastSig": "5vBabi9fHuAWiJYThZswqt2Hn3dp6rWeg5C1tSSCgXrcxHGJhytEEpEe59CRoQ5Erw2SeJeyWAzrumu5XMFH3iJ"
   },
   "BWsHhgrppFyRKQL1wHRWXUwMQJjA3LBmkTYT382vLG3i": {
    "addedAt": 1793370567376,
@@ -523,79 +523,26 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
    "lastSig": "42sUCtSU3sotcP37rGsRRDoiijpsqWigvDPqx5izVQX2ACgtxg87WRebecDNaybLG2np1JUZFdqVF3RydWtgLzBz"
   }
  },
- "lastPollAt": 1793414724833
+ "lastPollAt": 1793415624557
 }
 
 ===== COPY LAG (last 24h) =====
-signals: 82   fills: 1
-their tx -> we see it:   median 0.6s
+signals: 81   fills: 1
+their tx -> we see it:   median 0.5s
 their tx -> our fill:    median 2.5s
 our entry vs theirs:     median +1.2%   worst +1.2%
 
 last 5:
-  01:52:30 blocked 5THtNE   seen 0.2s  total -  gap -
   01:57:46 blocked DRMnFy   seen 0.3s  total -  gap -
   02:25:57 blocked BLN4c4   seen 0.4s  total -  gap -
   02:27:16 blocked Fek7BG   seen 0.8s  total -  gap -
   02:28:16 blocked 22rWiy   seen 0.4s  total -  gap -
+  02:57:50 blocked E8c9gv   seen 0.2s  total -  gap -
 
 ===== DISCOVERY STATE =====
-…ays":28.52380787037037},"6VmdLz2tN8kVJdX6c5qzX1JJMFfh7hvGmoFjLEPxYPea":{"ts":1793370559867,"passed":false,"reasons":["only 20% of their recent tokens (4/20) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×5, deployer has minted N times (max N) ×4, mint authority still enabled (dev can print more tokens) ×3)","28% of trades held under 1 minute — not copyable"],"wins":1,"swaps":41,"winRate":5.555555555555555,"totalPnlSol":-0.4519165732758875,"medianHoldMin":394.26666666666665,"windowDays":2.490601851851852},"4hVFVUz72JCMWeZMMobdt1kDKWs6jGT9uWUePoYkvgC6":{"ts":1793370562368,"passed":true,"reasons":[],"wins":1,"swaps":30,"winRate":91.66666666666666,"totalPnlSol":0.2786295021767076,"medianHoldMin":27.666666666666668,"windowDays":27.652175925925928},"64ntm4YsVXR132LGHknPE9n58usBaWHLShQkdgUaeLsD":{"ts":1793370567362,"passed":false,"reasons":["negative realized PnL (-0.66 SOL) over the sampled window"],"wins":1,"swaps":174,"winRate":38,"totalPnlSol":-0.6649173927296186,"medianHoldMin":2641.0333333333333,"windowDays":29.802314814814814},"6bKzMn1dwZ6Gv5crctKqffXstmJ29cxsqptyMnkWhq1w":{"ts":1793399332002,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":2,"swaps":425,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":28.952002314814816},"XLJUgjAy2fYRNX5kjuupgrTRszHxdWnf3XEv398wi8c":{"ts":1793399337077,"passed":false,"reasons":["only 22% of their recent tokens (2/9) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×3, mint authority still enabled (dev can print more tokens) ×2, liquidity N < min N ×2)"],"wins":2,"swaps":57,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.5156597222222222},"8ZoGT7CV9R1tWbzZ4aZ2YjdHcJHvyTSpZNY2kqs5Wr9":{"ts":1793399339543,"passed":false,"reasons":["only 8 completed round trips — too few to judge (want 10+)"],"wins":2,"swaps":24,"winRate":75,"totalPnlSol":6.281497440159968,"medianHoldMin":2162.741666666667,"windowDays":9.379560185185186},"5rnvtzECH2UZaqiY2LqjtBbCHWFRyKLAkavxbQtXo2QU":{"ts":1793399341999,"passed":false,"reasons":["negative realized PnL (-13.47 SOL) over the sampled window"],"wins":1,"swaps":37,"winRate":14.285714285714285,"totalPnlSol":-13.46651369855507,"medianHoldMin":2807.9,"windowDays":29.48553240740741},"HWNA39BRKiTsxfpvLxa2MABta8qRGgoEazbiCfWXYNSp":{"ts":1793399346994,"passed":false,"reasons":["negative realized PnL (-3.86 SOL) over the sampled window"],"wins":1,"swaps":66,"winRate":18.51851851851852,"totalPnlSol":-3.860183860356454,"medianHoldMin":3772.016666666667,"windowDays":29.65591435185185},"8LSRV1seqxebcCcXUnMK4QnC7DDtDirtfYR7CM9LuLQw":{"ts":1793399354881,"passed":false,"reasons":["negative realized PnL (-1.63 SOL) over the sampled window"],"wins":1,"swaps":309,"winRate":8.47457627118644,"totalPnlSol":-1.6304962944665526,"medianHoldMin":1352.7166666666667,"windowDays":3.118923611111111},"DQKutiSuxiQA6A2K52J68WVm5wGFK9QujhQG5kLgFXoV":{"ts":1793399355482,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":2,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.011319444444444444},"5EPKzfm6ZNd5rdHv7JLRQk5hyrBwxgJhXwfCnDkAgW4H":{"ts":1793399366350,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":30,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":1.6954282407407408}},"scanCount":198,"lastScanAt":1793399303985,"budget":{"day":"2026-10-31","birdeyeCu":0,"heliusCredits":157},"policy":5,"sourceStats":{"birdeye":{"nominated":2917,"vetted":253,"passed":13,"screened":98},"crawl":{"nominated":1266,"vetted":916,"passed":78,"screened":98},"winners":{"nominated":1783,"vetted":224,"passed":14,"screened":49}},"stableSwept":true}
+…ays":28.52380787037037},"6VmdLz2tN8kVJdX6c5qzX1JJMFfh7hvGmoFjLEPxYPea":{"ts":1793370559867,"passed":false,"reasons":["only 20% of their recent tokens (4/20) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×5, deployer has minted N times (max N) ×4, mint authority still enabled (dev can print more tokens) ×3)","28% of trades held under 1 minute — not copyable"],"wins":1,"swaps":41,"winRate":5.555555555555555,"totalPnlSol":-0.4519165732758875,"medianHoldMin":394.26666666666665,"windowDays":2.490601851851852},"4hVFVUz72JCMWeZMMobdt1kDKWs6jGT9uWUePoYkvgC6":{"ts":1793370562368,"passed":true,"reasons":[],"wins":1,"swaps":30,"winRate":91.66666666666666,"totalPnlSol":0.2786295021767076,"medianHoldMin":27.666666666666668,"windowDays":27.652175925925928},"64ntm4YsVXR132LGHknPE9n58usBaWHLShQkdgUaeLsD":{"ts":1793370567362,"passed":false,"reasons":["negative realized PnL (-0.66 SOL) over the sampled window"],"wins":1,"swaps":174,"winRate":38,"totalPnlSol":-0.6649173927296186,"medianHoldMin":2641.0333333333333,"windowDays":29.802314814814814},"6bKzMn1dwZ6Gv5crctKqffXstmJ29cxsqptyMnkWhq1w":{"ts":1793399332002,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":2,"swaps":425,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":28.952002314814816},"XLJUgjAy2fYRNX5kjuupgrTRszHxdWnf3XEv398wi8c":{"ts":1793399337077,"passed":false,"reasons":["only 22% of their recent tokens (2/9) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×3, mint authority still enabled (dev can print more tokens) ×2, liquidity N < min N ×2)"],"wins":2,"swaps":57,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.5156597222222222},"8ZoGT7CV9R1tWbzZ4aZ2YjdHcJHvyTSpZNY2kqs5Wr9":{"ts":1793399339543,"passed":false,"reasons":["only 8 completed round trips — too few to judge (want 10+)"],"wins":2,"swaps":24,"winRate":75,"totalPnlSol":6.281497440159968,"medianHoldMin":2162.741666666667,"windowDays":9.379560185185186},"5rnvtzECH2UZaqiY2LqjtBbCHWFRyKLAkavxbQtXo2QU":{"ts":1793399341999,"passed":false,"reasons":["negative realized PnL (-13.47 SOL) over the sampled window"],"wins":1,"swaps":37,"winRate":14.285714285714285,"totalPnlSol":-13.46651369855507,"medianHoldMin":2807.9,"windowDays":29.48553240740741},"HWNA39BRKiTsxfpvLxa2MABta8qRGgoEazbiCfWXYNSp":{"ts":1793399346994,"passed":false,"reasons":["negative realized PnL (-3.86 SOL) over the sampled window"],"wins":1,"swaps":66,"winRate":18.51851851851852,"totalPnlSol":-3.860183860356454,"medianHoldMin":3772.016666666667,"windowDays":29.65591435185185},"8LSRV1seqxebcCcXUnMK4QnC7DDtDirtfYR7CM9LuLQw":{"ts":1793399354881,"passed":false,"reasons":["negative realized PnL (-1.63 SOL) over the sampled window"],"wins":1,"swaps":309,"winRate":8.47457627118644,"totalPnlSol":-1.6304962944665526,"medianHoldMin":1352.7166666666667,"windowDays":3.118923611111111},"DQKutiSuxiQA6A2K52J68WVm5wGFK9QujhQG5kLgFXoV":{"ts":1793399355482,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":2,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.011319444444444444},"5EPKzfm6ZNd5rdHv7JLRQk5hyrBwxgJhXwfCnDkAgW4H":{"ts":1793399366350,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":30,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":1.6954282407407408}},"scanCount":198,"lastScanAt":1793399303985,"budget":{"day":"2026-10-31","birdeyeCu":0,"heliusCredits":171},"policy":5,"sourceStats":{"birdeye":{"nominated":2917,"vetted":253,"passed":13,"screened":98},"crawl":{"nominated":1266,"vetted":916,"passed":78,"screened":98},"winners":{"nominated":1783,"vetted":224,"passed":14,"screened":49}},"stableSwept":true}
 
 ===== LOG (last 200 lines) =====
-2026-10-31T01:52:42+00:00 Copytrader copytrader[469532]: [2026-10-31T01:52:42.928Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:53:02+00:00 Copytrader copytrader[469532]: [2026-10-31T01:53:02.858Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:53:22+00:00 Copytrader copytrader[469532]: [2026-10-31T01:53:22.870Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:53:42+00:00 Copytrader copytrader[469532]: [2026-10-31T01:53:42.853Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:54:02+00:00 Copytrader copytrader[469532]: [2026-10-31T01:54:02.856Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:54:22+00:00 Copytrader copytrader[469532]: [2026-10-31T01:54:22.857Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:54:42+00:00 Copytrader copytrader[469532]: [2026-10-31T01:54:42.854Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:55:02+00:00 Copytrader copytrader[469532]: [2026-10-31T01:55:02.877Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:55:22+00:00 Copytrader copytrader[469532]: [2026-10-31T01:55:22.866Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:55:42+00:00 Copytrader copytrader[469532]: [2026-10-31T01:55:42.863Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:56:03+00:00 Copytrader copytrader[469532]: [2026-10-31T01:56:03.118Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:56:22+00:00 Copytrader copytrader[469532]: [2026-10-31T01:56:22.897Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:56:42+00:00 Copytrader copytrader[469532]: [2026-10-31T01:56:42.864Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:56:45+00:00 Copytrader copytrader[469532]: [2026-10-31T01:56:45.223Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold 9shb4VuR85tKziVn7sxScS8AXEFA4smM8NL4Z6utBAGS -> bought So11111111111111111111111111111111111111112 (sig 2MMhhD2PmjM5zyDzCyZDEYbwgfenKqkt7YRprmxb9hmQpkNvL6T4iLi2LLuFEAgKc9ZgoXCDaCLG69Uhquo8rZ8W)
-2026-10-31T01:56:45+00:00 Copytrader copytrader[469532]: [2026-10-31T01:56:45.223Z] [INFO] Ignoring swap we can't act on (sig 2MMhhD2PmjM5zyDzCyZDEYbwgfenKqkt7YRprmxb9hmQpkNvL6T4iLi2LLuFEAgKc9ZgoXCDaCLG69Uhquo8rZ8W): 9shb4V -> So1111
-2026-10-31T01:57:02+00:00 Copytrader copytrader[469532]: [2026-10-31T01:57:02.866Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:57:22+00:00 Copytrader copytrader[469532]: [2026-10-31T01:57:22.862Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:57:42+00:00 Copytrader copytrader[469532]: [2026-10-31T01:57:42.907Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:57:47+00:00 Copytrader copytrader[469532]: [2026-10-31T01:57:47.049Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold So11111111111111111111111111111111111111112 -> bought DRMnFyekQiCTMrajtgsTycqp4ie6r1tZnh6qpAGjpump (sig 5yZpQFJQDkxiuzj9bQnfto1YUbYCYcGMgeg9UVkfiNqRzyFdX3VTiuHCwqe5hLvPAkyfBqpzUAdV28Zqvu9TZKwX)
-2026-10-31T01:57:47+00:00 Copytrader copytrader[469532]: [2026-10-31T01:57:47.090Z] [WARN] Filtered out DRMnFyekQiCTMrajtgsTycqp4ie6r1tZnh6qpAGjpump: organic score 0 (low) < min 30
-2026-10-31T01:57:47+00:00 Copytrader copytrader[469532]: [2026-10-31T01:57:47.090Z] [INFO] Copy lag blocked: their tx → seen 0.3s, parse 0.7s
-2026-10-31T01:58:02+00:00 Copytrader copytrader[469532]: [2026-10-31T01:58:02.866Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:58:09+00:00 Copytrader copytrader[469532]: [2026-10-31T01:58:09.369Z] [INFO] Outcome follow-up: recorded 1 result(s) at the 6h mark.
-2026-10-31T01:58:09+00:00 Copytrader copytrader[469532]: [2026-10-31T01:58:09.525Z] [INFO] Outcome follow-up: recorded 5 result(s) at the 24h mark.
-2026-10-31T01:58:09+00:00 Copytrader copytrader[469532]: [2026-10-31T01:58:09.763Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-10-31T01:58:22+00:00 Copytrader copytrader[469532]: [2026-10-31T01:58:22.866Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:58:42+00:00 Copytrader copytrader[469532]: [2026-10-31T01:58:42.866Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:59:02+00:00 Copytrader copytrader[469532]: [2026-10-31T01:59:02.871Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:59:22+00:00 Copytrader copytrader[469532]: [2026-10-31T01:59:22.868Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T01:59:42+00:00 Copytrader copytrader[469532]: [2026-10-31T01:59:42.869Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:00:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:00:02.950Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:00:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:00:22.879Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:00:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:00:42.871Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:01:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:01:02.870Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:01:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:01:22.867Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:01:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:01:42.875Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:02:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:02:02.883Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:02:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:02:22.877Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:02:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:02:42.912Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:03:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:03:02.886Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:03:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:03:22.877Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:03:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:03:42.876Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:04:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:04:02.878Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:04:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:04:22.880Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:04:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:04:42.879Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:05:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:05:02.887Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:05:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:05:22.881Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:05:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:05:42.883Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:06:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:06:02.888Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:06:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:06:22.883Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:06:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:06:42.881Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:07:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:07:02.898Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
-2026-10-31T02:07:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:07:22.890Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
 2026-10-31T02:07:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:07:42.914Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
 2026-10-31T02:08:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:08:02.897Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
 2026-10-31T02:08:08+00:00 Copytrader copytrader[469532]: [2026-10-31T02:08:08.985Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold 6Mix12LiHrQFojaQEnfPUC65Qkwd6X4Y5Qg93oFbordr -> bought So11111111111111111111111111111111111111112 (sig 2HMLNkuhF5NajJgPh76aGFXEsw8jv8RkAVRsYeNKVYJv9vSX239WVNFYfnnu5bL2FFsMcvpptvCnsbWm5NTJPub3)
@@ -743,3 +690,56 @@ last 5:
 2026-10-31T02:50:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:50:22.957Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
 2026-10-31T02:50:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:50:42.962Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
 2026-10-31T02:51:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:51:02.959Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:51:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:51:22.959Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:51:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:51:42.961Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:52:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:52:02.978Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:52:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:52:22.957Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:52:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:52:42.988Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:53:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:53:02.973Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:53:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:53:22.969Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:53:29+00:00 Copytrader copytrader[469532]: [2026-10-31T02:53:29.093Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold 8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump -> bought So11111111111111111111111111111111111111112 (sig jzeNhKgfwThzEDmGUxngmWRgbfhD5qJstVPagmHWcnYDbeqBEoeGQEoBBeM5YFCm1Kekduq5yP9tZZzg9crgLpm)
+2026-10-31T02:53:29+00:00 Copytrader copytrader[469532]: [2026-10-31T02:53:29.093Z] [INFO] Ignoring swap we can't act on (sig jzeNhKgfwThzEDmGUxngmWRgbfhD5qJstVPagmHWcnYDbeqBEoeGQEoBBeM5YFCm1Kekduq5yP9tZZzg9crgLpm): 8Xg89x -> So1111
+2026-10-31T02:53:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:53:42.959Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:54:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:54:02.963Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:54:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:54:22.959Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:54:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:54:42.962Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:55:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:55:02.968Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:55:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:55:22.986Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:55:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:55:42.960Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:56:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:56:02.968Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:56:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:56:22.961Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:56:34+00:00 Copytrader copytrader[469532]: [2026-10-31T02:56:34.132Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold 3cN6fwokMAYP1pyAn4MjjLL8mL9axyxhvjS9c6bzpump -> bought So11111111111111111111111111111111111111112 (sig 2Da4oGBxcsc2pKHLrCkd9KZm5JcV2difBKZY9CqpVSJ43BPcFyq8juua4jR8owj8VfSXJjRFk4W5aRRkYTJaZu8)
+2026-10-31T02:56:34+00:00 Copytrader copytrader[469532]: [2026-10-31T02:56:34.132Z] [INFO] Ignoring swap we can't act on (sig 2Da4oGBxcsc2pKHLrCkd9KZm5JcV2difBKZY9CqpVSJ43BPcFyq8juua4jR8owj8VfSXJjRFk4W5aRRkYTJaZu8): 3cN6fw -> So1111
+2026-10-31T02:56:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:56:42.962Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:57:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:57:02.967Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:57:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:57:22.963Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:57:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:57:42.984Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:57:50+00:00 Copytrader copytrader[469532]: [2026-10-31T02:57:50.962Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold So11111111111111111111111111111111111111112 -> bought E8c9gvuE7gW4R8AVcaTCbbTG1zJGdUR9KGtS94eXBAGS (sig 3q6VTUA7Vbym6eJJ8AhbSxWdkKdFfcVDJvR1WBAtvyLWFZCFwmWW5iCK3ufAdtaFzsnL9JmxA23HSa8uqB5uJbFi)
+2026-10-31T02:57:51+00:00 Copytrader copytrader[469532]: [2026-10-31T02:57:51.019Z] [WARN] Filtered out E8c9gvuE7gW4R8AVcaTCbbTG1zJGdUR9KGtS94eXBAGS: deployer has minted 192663 times (max 50)
+2026-10-31T02:57:51+00:00 Copytrader copytrader[469532]: [2026-10-31T02:57:51.021Z] [INFO] Copy lag blocked: their tx → seen 0.2s, parse 0.8s
+2026-10-31T02:58:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:02.967Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:58:09+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:09.346Z] [INFO] Outcome follow-up: recorded 5 result(s) at the 6h mark.
+2026-10-31T02:58:09+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:09.483Z] [INFO] Outcome follow-up: recorded 4 result(s) at the 24h mark.
+2026-10-31T02:58:09+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:09.630Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
+2026-10-31T02:58:19+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:19.474Z] [INFO] Wallet position verification: corrected 10/150 tracked position(s) from chain.
+2026-10-31T02:58:19+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:19.474Z] [INFO]   CiTuTZ/8Xg89x: tracked 19352 -> chain 0
+2026-10-31T02:58:19+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:19.474Z] [INFO]   CiTuTZ/22rWiy: tracked 70013 -> chain 26591
+2026-10-31T02:58:19+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:19.474Z] [INFO]   CiTuTZ/Fek7BG: tracked 320719 -> chain 0
+2026-10-31T02:58:19+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:19.474Z] [INFO]   CiTuTZ/6Mix12: tracked 97348 -> chain 0
+2026-10-31T02:58:19+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:19.474Z] [INFO]   CiTuTZ/4CxjZy: tracked 175166 -> chain 0
+2026-10-31T02:58:19+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:19.474Z] [INFO]   CiTuTZ/3cN6fw: tracked 607757 -> chain 0
+2026-10-31T02:58:19+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:19.474Z] [INFO]   CiTuTZ/7MuvW6: tracked 123896 -> chain 103940
+2026-10-31T02:58:19+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:19.474Z] [INFO]   CiTuTZ/7HgfXf: tracked 37614 -> chain 0
+2026-10-31T02:58:19+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:19.475Z] [INFO]   CiTuTZ/9shb4V: tracked 278767 -> chain 0
+2026-10-31T02:58:19+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:19.475Z] [INFO]   CiTuTZ/E8c9gv: tracked 245814 -> chain 164359
+2026-10-31T02:58:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:22.967Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:58:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:58:42.965Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:59:02+00:00 Copytrader copytrader[469532]: [2026-10-31T02:59:02.980Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:59:22+00:00 Copytrader copytrader[469532]: [2026-10-31T02:59:22.964Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T02:59:42+00:00 Copytrader copytrader[469532]: [2026-10-31T02:59:42.970Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T03:00:03+00:00 Copytrader copytrader[469532]: [2026-10-31T03:00:03.013Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T03:00:22+00:00 Copytrader copytrader[469532]: [2026-10-31T03:00:22.971Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T03:00:42+00:00 Copytrader copytrader[469532]: [2026-10-31T03:00:42.970Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T03:01:02+00:00 Copytrader copytrader[469532]: [2026-10-31T03:01:02.981Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T03:01:22+00:00 Copytrader copytrader[469532]: [2026-10-31T03:01:22.980Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
+2026-10-31T03:01:42+00:00 Copytrader copytrader[469532]: [2026-10-31T03:01:42.975Z] [INFO] HOTBOT: tighter stop (25%) — wallet CiTuTZhG median hold 1.6h
