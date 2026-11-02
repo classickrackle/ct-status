@@ -1,11 +1,11 @@
 COPYTRADER STATUS
-generated: 2026-11-02T18:00:16.010Z
+generated: 2026-11-02T18:10:45.924Z
 
 ===== SERVICE =====
 state:        active
 running since Fri 2026-10-23 22:58:07 UTC
 restarts:     0
-warn/err in last 24h: 127
+warn/err in last 24h: 124
 
 ===== AT A GLANCE =====
 followed wallets: 4
@@ -395,27 +395,7 @@ By rule
 Returns are from the signal price, before our lag and fees. Try /filters 6 for the 6-hour view.
 
 ===== WATCHLIST =====
-…son": null,
-     "entryUsd": 0.0010796142429092958,
-     "ret6h": -3.06272234950783
-    }
-   ],
-   "note": "passed vetting 2026-10-30",
-   "lastSig": "3ax823eHZZEBDHU8wyhaDRDXMc8TiygWnfoq6vwwaqwMWLc9Y66iHgyn2izhLp1ppAn418vrhguVhzVMm9bCToaG"
-  },
-  "4hVFVUz72JCMWeZMMobdt1kDKWs6jGT9uWUePoYkvgC6": {
-   "addedAt": 1793370567377,
-   "buys": [
-    {
-     "sig": "vDgT3ZHdcm3NJDonTa5XtaMR1ma4f1cn7deSJyMqhdNtgoR55q1m7oMVXjXsNtpwuEhRjmLfQz9aHojuSGYicKA",
-     "ts": 1793382901000,
-     "mint": "HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump",
-     "symbol": "Bert",
-     "passes": true,
-     "reason": null,
-     "entryUsd": 0.010769619655990397,
-     "ret6h": 3.0102859297021554
-    },
+…,
     {
      "sig": "47rfrXJGCTZ2XiCnp3QUyViYBqFkfjUi8zEJRngpCyvLFZPL7AEmgrV9Z1VWs12aMsZ7T6hgnS2PMDVmzfpMLwbk",
      "ts": 1793385989000,
@@ -489,9 +469,28 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
   },
   "H3u5c6LrdPP1umxCAifwHhCQbxUeYHXgWnW9NqtWEibe": {
    "addedAt": 1793514541665,
-   "buys": [],
+   "buys": [
+    {
+     "sig": "3izM7TTptBNmDec72qNPL6tJERcUMvNLuYwfy2aSprZrgpFGUvpRrV4Yc8aeTwhMknZjdDVPd2iXtPcDZArAFN2w",
+     "ts": 1793641872000,
+     "mint": "EhzVcKKmGjLk6pD5gLT6ZrTg62bMgPgTSCXXmANnSyQA",
+     "symbol": "SANTA",
+     "passes": false,
+     "reason": "organic score 0 (low) < min 30",
+     "entryUsd": 0.002880820256050382
+    },
+    {
+     "sig": "5amaTAfzhGtRfafMrBb7Y78nPSm9cmd4rGPh7yxsJirPn6rCqutu1dcEKdLxpqnghvNcvdu92Sf6NSJercxDpmAS",
+     "ts": 1793641917000,
+     "mint": "EhzVcKKmGjLk6pD5gLT6ZrTg62bMgPgTSCXXmANnSyQA",
+     "symbol": "SANTA",
+     "passes": false,
+     "reason": "organic score 0 (low) < min 30",
+     "entryUsd": 0.002880820256050382
+    }
+   ],
    "note": "passed vetting 2026-11-01",
-   "lastSig": "VKdVtCaA1oXxHZs1ZATuE5cd5mahRF7CwNcXX1EoqB3VZbV9PGqFRtufTSvp1kSQW9gdtuzxSQnmFj3at3jzch1"
+   "lastSig": "5amaTAfzhGtRfafMrBb7Y78nPSm9cmd4rGPh7yxsJirPn6rCqutu1dcEKdLxpqnghvNcvdu92Sf6NSJercxDpmAS"
   },
   "433zkVLNg93HaYY1YkqYvjUv3MVjddmUfqTXUDGcTYoV": {
    "addedAt": 1793629735191,
@@ -506,12 +505,12 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
    "lastSig": "2KoEAMvQftVvK6fT2ALG31uVnmwohMsQjgCn4JRzBJAyWFWJZWGdXMBeauyJiBHk8dTpb699B9B9mQSsTBUbwT2p"
   }
  },
- "lastPollAt": 1793641526290
+ "lastPollAt": 1793642426696
 }
 
 ===== COPY LAG (last 24h) =====
-signals: 117   fills: 1
-their tx -> we see it:   median 0.6s
+signals: 115   fills: 1
+their tx -> we see it:   median 0.7s
 their tx -> our fill:    median 1.5s
 our entry vs theirs:     median +0.4%   worst +0.4%
 
@@ -523,7 +522,7 @@ last 5:
   14:17:12 blocked ABkr21   seen 0.2s  total -  gap -
 
 ===== DISCOVERY STATE =====
-…se,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.04092592592592593},"3TbiD8pEdaNgEvAVXXJc2usX7aYtcnFVPtZ9FiGzSzts":{"ts":1793600934569,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":14,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.03806712962962963},"F1WrZqa49f95NnZLkzpV5Zv8GJBsPwuS26zJidjQiE2T":{"ts":1793600935572,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":3,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.5394212962962963},"97mSz2SFFPkxc7dBbGfwrEVBxtAJTPRsKi4nwf9u5bRR":{"ts":1793600937377,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.035069444444444445},"3u4ctbia85ksimy2EmqWKM6yX3fJ3qSpy9Hvtz1prwpy":{"ts":1793600940376,"passed":false,"reasons":["only 4 completed round trips — too few to judge (want 10+)"],"wins":1,"swaps":8,"winRate":25,"totalPnlSol":0.01684457799999993,"medianHoldMin":11.333333333333334,"windowDays":0.8709375},"F7wHJEyXvJGzUotL3naLc4xhQQJxqYYMYWnEzDgc9AaZ":{"ts":1793629727636,"passed":false,"reasons":["only 1 completed round trips — too few to judge (want 10+)","negative realized PnL (-0.28 SOL) over the sampled window"],"wins":1,"swaps":4,"winRate":0,"totalPnlSol":-0.281385708,"medianHoldMin":221.18333333333334,"windowDays":0.4483912037037037},"8uiUJCbvueTSNgTuh27jmxwJSViRRRGhQeisBm7VMm7n":{"ts":1793629729140,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":12,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.22207175925925926},"J5WhbBEUVwXiELfPv979R1cpndGHBH5oZScFqHa31wT7":{"ts":1793629730149,"passed":true,"reasons":[],"wins":1,"swaps":43,"winRate":41.37931034482759,"totalPnlSol":0.8450921700000003,"medianHoldMin":134.98333333333332,"windowDays":2.6356712962962963},"HDpdphPAnKKyMMof2d6gBu5SfRKHBWuevseKsytSD5SF":{"ts":1793629731137,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.04496527777777778},"6u8p449diEwnZ3JYTHXzp25vxzdiyHb8EHr5GxioXknK":{"ts":1793629732139,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.14166666666666666},"2GixDGWd5NiHdH2UTphT6evobhx8ZrHeTYvFHbaf1X19":{"ts":1793629733216,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":2,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.6732407407407407},"7nVhpF8WgQKeEmjz8AFRqXFncbYhjfQNSFyAYjWSo1jq":{"ts":1793629735178,"passed":false,"reasons":["only 1 completed round trips — too few to judge (want 10+)","negative realized PnL (-0.21 SOL) over the sampled window"],"wins":1,"swaps":4,"winRate":0,"totalPnlSol":-0.21349698200000003,"medianHoldMin":214.58333333333334,"windowDays":0.4849537037037037}},"scanCount":206,"lastScanAt":1793629706105,"budget":{"day":"2026-11-02","birdeyeCu":390,"heliusCredits":6703},"policy":5,"sourceStats":{"birdeye":{"nominated":3071,"vetted":258,"passed":13,"screened":104},"crawl":{"nominated":1374,"vetted":997,"passed":83,"screened":104},"winners":{"nominated":1931,"vetted":232,"passed":16,"screened":55}},"stableSwept":true}
+…se,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.04092592592592593},"3TbiD8pEdaNgEvAVXXJc2usX7aYtcnFVPtZ9FiGzSzts":{"ts":1793600934569,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":14,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.03806712962962963},"F1WrZqa49f95NnZLkzpV5Zv8GJBsPwuS26zJidjQiE2T":{"ts":1793600935572,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":3,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.5394212962962963},"97mSz2SFFPkxc7dBbGfwrEVBxtAJTPRsKi4nwf9u5bRR":{"ts":1793600937377,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.035069444444444445},"3u4ctbia85ksimy2EmqWKM6yX3fJ3qSpy9Hvtz1prwpy":{"ts":1793600940376,"passed":false,"reasons":["only 4 completed round trips — too few to judge (want 10+)"],"wins":1,"swaps":8,"winRate":25,"totalPnlSol":0.01684457799999993,"medianHoldMin":11.333333333333334,"windowDays":0.8709375},"F7wHJEyXvJGzUotL3naLc4xhQQJxqYYMYWnEzDgc9AaZ":{"ts":1793629727636,"passed":false,"reasons":["only 1 completed round trips — too few to judge (want 10+)","negative realized PnL (-0.28 SOL) over the sampled window"],"wins":1,"swaps":4,"winRate":0,"totalPnlSol":-0.281385708,"medianHoldMin":221.18333333333334,"windowDays":0.4483912037037037},"8uiUJCbvueTSNgTuh27jmxwJSViRRRGhQeisBm7VMm7n":{"ts":1793629729140,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":12,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.22207175925925926},"J5WhbBEUVwXiELfPv979R1cpndGHBH5oZScFqHa31wT7":{"ts":1793629730149,"passed":true,"reasons":[],"wins":1,"swaps":43,"winRate":41.37931034482759,"totalPnlSol":0.8450921700000003,"medianHoldMin":134.98333333333332,"windowDays":2.6356712962962963},"HDpdphPAnKKyMMof2d6gBu5SfRKHBWuevseKsytSD5SF":{"ts":1793629731137,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.04496527777777778},"6u8p449diEwnZ3JYTHXzp25vxzdiyHb8EHr5GxioXknK":{"ts":1793629732139,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.14166666666666666},"2GixDGWd5NiHdH2UTphT6evobhx8ZrHeTYvFHbaf1X19":{"ts":1793629733216,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":2,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.6732407407407407},"7nVhpF8WgQKeEmjz8AFRqXFncbYhjfQNSFyAYjWSo1jq":{"ts":1793629735178,"passed":false,"reasons":["only 1 completed round trips — too few to judge (want 10+)","negative realized PnL (-0.21 SOL) over the sampled window"],"wins":1,"swaps":4,"winRate":0,"totalPnlSol":-0.21349698200000003,"medianHoldMin":214.58333333333334,"windowDays":0.4849537037037037}},"scanCount":206,"lastScanAt":1793629706105,"budget":{"day":"2026-11-02","birdeyeCu":390,"heliusCredits":6711},"policy":5,"sourceStats":{"birdeye":{"nominated":3071,"vetted":258,"passed":13,"screened":104},"crawl":{"nominated":1374,"vetted":997,"passed":83,"screened":104},"winners":{"nominated":1931,"vetted":232,"passed":16,"screened":55}},"stableSwept":true}
 
 ===== LOG (last 200 lines) =====
 2026-11-02T11:22:40+00:00 Copytrader copytrader[469532]: [2026-11-02T11:22:40.078Z] [INFO] Token ALTSZN passed filters: liq $89762, age 286124m, 5208 holders, top-holders 13.7%, organic 59, LP locked 100%, RugCheck score 1, 1h -6%, buy/sell 2.07
