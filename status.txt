@@ -1,11 +1,11 @@
 COPYTRADER STATUS
-generated: 2026-11-01T23:56:15.933Z
+generated: 2026-11-02T00:06:33.451Z
 
 ===== SERVICE =====
 state:        active
 running since Fri 2026-10-23 22:58:07 UTC
 restarts:     0
-warn/err in last 24h: 110
+warn/err in last 24h: 111
 
 ===== AT A GLANCE =====
 followed wallets: 4
@@ -357,8 +357,8 @@ All blocked: 278 token(s): median -14%, 32% up, 6% up 50%+, 4% dead
 Token-to-token entries (not copied): 1 token(s): median +199%, 100% up, 100% up 50%+, 0% dead
 
 By rule
+🛡 liquidity N < min N — 97 token(s): median -29%, 29% up, 8% up 50%+, 0% dead
 🛡 deployer has minted N times — 96 token(s): median -13%, 34% up, 4% up 50%+, 2% dead
-🛡 liquidity N < min N — 96 token(s): median -29%, 29% up, 8% up 50%+, 0% dead
 · sell pressure: N buys vs N sells in the last hour — 32 token(s): median -4%, 41% up, 3% up 50%+, 0% dead
 🛡 volume fading: last hour is N of the Nh average — 29 token(s): median -20%, 17% up, 3% up 50%+, 0% dead
 · top holders own N > max N — 19 token(s): median -0%, 47% up, 11% up 50%+, 0% dead
@@ -374,12 +374,12 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
 🔎 Filter audit — what tokens did 6h after the signal
 
 Bought: 31 token(s): median +0%, 55% up, 10% up 50%+, 0% dead
-All blocked: 290 token(s): median -2%, 45% up, 5% up 50%+, 2% dead
+All blocked: 291 token(s): median -2%, 45% up, 5% up 50%+, 2% dead
 Token-to-token entries (not copied): 1 token(s): median +86%, 100% up, 100% up 50%+, 0% dead
 
 By rule
 · deployer has minted N times — 104 token(s): median -2%, 44% up, 4% up 50%+, 0% dead
-· liquidity N < min N — 101 token(s): median -4%, 47% up, 6% up 50%+, 0% dead
+· liquidity N < min N — 102 token(s): median -2%, 47% up, 6% up 50%+, 0% dead
 · sell pressure: N buys vs N sells in the last hour — 32 token(s): median +1%, 53% up, 3% up 50%+, 0% dead
 🛡 volume fading: last hour is N of the Nh average — 31 token(s): median -4%, 35% up, 6% up 50%+, 0% dead
 · top holders own N > max N — 19 token(s): median -0%, 47% up, 0% up 50%+, 0% dead
@@ -393,25 +393,7 @@ By rule
 Returns are from the signal price, before our lag and fees. Try /filters 6 for the 6-hour view.
 
 ===== WATCHLIST =====
-…Bd9Lu2Bwtj2Yz4GpwJHNWQPbbn7ppCQ1XNbrcau",
-     "ts": 1793572382000,
-     "mint": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
-     "symbol": "Kim",
-     "passes": true,
-     "reason": null,
-     "entryUsd": 0.00019803332224969028
-    },
-    {
-     "sig": "YVsqNPJEkErs5KkqNfKjqz7KGEK37x5agyKLoHv29y4iKj3NK4Wvns3DgWJHnkK8ZNJRAzY3vZ1AoThGUZ45Fgc",
-     "ts": 1793572840000,
-     "mint": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
-     "symbol": "GLITCH",
-     "passes": true,
-     "reason": null,
-     "entryUsd": 0.003758149915755485
-    },
-    {
-     "sig": "47w3JAqj1NP1162fA6ux7QV5MvNRne5iykrkk5r5rAHVZ1dUs3UTt5XeYecr6iTPj65tp9NSgWC1FT4H6JVJu8MM",
+…",
      "ts": 1793572876000,
      "mint": "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray",
      "symbol": "PEAK",
@@ -499,38 +481,50 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
      "passes": false,
      "reason": "deployer has minted 129 times (max 50)",
      "entryUsd": 0.0005779594202724091
+    },
+    {
+     "sig": "2di74Xj6VnYqiGUfm3gXud2QMaFjDQr46JWHbr6QFgDJCQSEkHjqTm3L7zJutWXhcEiNMxXKhoKttREQhbUTyLaU",
+     "ts": 1793577376000,
+     "mint": "APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray",
+     "symbol": "PEAK",
+     "passes": true,
+     "reason": null,
+     "entryUsd": 0.0008034993999904624
+    },
+    {
+     "sig": "5n8pDJvJfV8jEPghVHPD3yWh1nh6dTvNvcLqERVoHXX1VV9NEd5y97hJNq3WXSqeC3S9iqR53GeTUQXY5sCWoiJH",
+     "ts": 1793577485000,
+     "mint": "ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump",
+     "symbol": "Anakin",
+     "passes": false,
+     "reason": "deployer has minted 257 times (max 50)",
+     "entryUsd": 0.0036499824348076412
     }
    ],
    "note": "passed vetting 2026-11-01",
-   "lastSig": "3Fq5XWFMQ6Jaj57uCj6g5kCnhMMcXLMLFPwBPhx3GDco5z6exRM33VfsrUpCtWksug6ttPbUcF1cZFhsGkufvk7y"
+   "lastSig": "rtM89F4nm2xtE3Hx1hrpxeXtz4vxE8gvGHa9LztpBDTtgAjqUiK4JDEN1ZtoGrGq7bBDbKwdttD5E5fJkHzEsrE"
   }
  },
- "lastPollAt": 1793576729565
+ "lastPollAt": 1793577627343
 }
 
 ===== COPY LAG (last 24h) =====
-signals: 107   fills: 1
-their tx -> we see it:   median 0.7s
+signals: 108   fills: 1
+their tx -> we see it:   median 0.6s
 their tx -> our fill:    median 1.9s
 our entry vs theirs:     median +0.6%   worst +0.6%
 
 last 5:
-  22:48:48 blocked MsGDyb   seen 0.5s  total -  gap -
   22:56:37 blocked ABkr21   seen 0.7s  total -  gap -
   23:10:44 blocked 35fWL6   seen 0.2s  total -  gap -
   23:16:54 blocked CvRJ8M   seen 1.1s  total -  gap -
   23:30:09 blocked qhbbjG   seen 0.6s  total -  gap -
+  23:57:34 blocked BF8KiA   seen 0.5s  total -  gap -
 
 ===== DISCOVERY STATE =====
-…"swaps":37,"winRate":7.142857142857142,"totalPnlSol":-0.38202662324790343,"medianHoldMin":97.79166666666667,"windowDays":2.3201388888888888},"6PmTuFEtHYxRAqBskBsLNk7UAqxfzjU5yUJACVPYpJS7":{"ts":1793572147761,"passed":false,"reasons":["only 5% of their recent tokens (1/20) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×16, liquidity N < min N ×2, mint authority still enabled (dev can print more tokens) ×1)"],"wins":1,"swaps":83,"winRate":51.724137931034484,"totalPnlSol":15.335336212138007,"medianHoldMin":652.1666666666666,"windowDays":1.8264004629629629},"9Q2G1CcFKVw35sdwK2eKTMPYEBoEAC19ShJD3Uz11HWb":{"ts":1793572152756,"passed":false,"reasons":["only 20% of their recent tokens (4/20) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×7, liquidity N < min N ×6, mint authority still enabled (dev can print more tokens) ×2)"],"wins":1,"swaps":151,"winRate":36.507936507936506,"totalPnlSol":0.20832515781055883,"medianHoldMin":13.8,"windowDays":6.938703703703704},"HPpB8vhRSquyy6eoMjWhA2cevfcxLrNQkjG3tizL9PY4":{"ts":1793572155258,"passed":false,"reasons":["only 10% of their recent tokens (1/10) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×5, deployer has minted N times (max N) ×3, mint authority still enabled (dev can print more tokens) ×1)","only 6 completed round trips — too few to judge (want 10+)","negative realized PnL (-0.70 SOL) over the sampled window"],"wins":1,"swaps":25,"winRate":33.33333333333333,"totalPnlSol":-0.6990041233827327,"medianHoldMin":142.99166666666667,"windowDays":2.722141203703704},"HuaXAx9h3SNC5ej6JoBfmJvf28U9aHiCyp9bKj28PFjd":{"ts":1793572157757,"passed":false,"reasons":["only 21% of their recent tokens (3/14) would pass your filters — you'd block nearly every buy they make (mostly: mint authority still enabled (dev can print more tokens) ×5, deployer has minted N times (max N) ×4, liquidity N < min N ×2)"],"wins":1,"swaps":19,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.3139814814814815},"B2vQm4qZcU3Ag84uBE1MoHqgsMUTbzMz8EMT8StLCXwW":{"ts":1793572160258,"passed":false,"reasons":["only 22% of their recent tokens (2/9) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×4, deployer has minted N times (max N) ×3)"],"wins":1,"swaps":50,"winRate":31.57894736842105,"totalPnlSol":-1.6991472196447956,"medianHoldMin":1188.1583333333333,"windowDays":5.405972222222222},"2mCkXKAChhX4fgdiNK3UafRcmNaW2YrNkwwmKAhGcwV7":{"ts":1793572160832,"passed":false,"reasons":["only 1 completed round trips — too few to judge (want 10+)"],"wins":1,"swaps":3,"winRate":100,"totalPnlSol":0.027085514000000005,"medianHoldMin":283.81666666666666,"windowDays":0.2461111111111111},"GvA2HwMaFQHCLKYvL7mRNqhFXp8zQqMgMcqKvkaXZmhZ":{"ts":1793572161827,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":3,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.40572916666666664},"2N2A5T85M9aoRLuKJeQZHn1MMoF39WyAoxuxvjN5zqpY":{"ts":1793572165273,"passed":false,"reasons":["only 6% of their recent tokens (1/16) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×7, deployer has minted N times (max N) ×6, mint authority still enabled (dev can print more tokens) ×2)"],"wins":1,"swaps":154,"winRate":62.06896551724138,"totalPnlSol":0.4587118923534063,"medianHoldMin":606.6333333333333,"windowDays":29.81946759259259}},"scanCount":204,"lastScanAt":1793572105568,"budget":{"day":"2026-11-01","birdeyeCu":630,"heliusCredits":11594},"policy":5,"sourceStats":{"birdeye":{"nominated":3036,"vetted":256,"passed":13,"screened":102},"crawl":{"nominated":1359,"vetted":981,"passed":81,"screened":101},"winners":{"nominated":1893,"vetted":229,"passed":15,"screened":53}},"stableSwept":true}
+…s":1,"swaps":37,"winRate":7.142857142857142,"totalPnlSol":-0.38202662324790343,"medianHoldMin":97.79166666666667,"windowDays":2.3201388888888888},"6PmTuFEtHYxRAqBskBsLNk7UAqxfzjU5yUJACVPYpJS7":{"ts":1793572147761,"passed":false,"reasons":["only 5% of their recent tokens (1/20) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×16, liquidity N < min N ×2, mint authority still enabled (dev can print more tokens) ×1)"],"wins":1,"swaps":83,"winRate":51.724137931034484,"totalPnlSol":15.335336212138007,"medianHoldMin":652.1666666666666,"windowDays":1.8264004629629629},"9Q2G1CcFKVw35sdwK2eKTMPYEBoEAC19ShJD3Uz11HWb":{"ts":1793572152756,"passed":false,"reasons":["only 20% of their recent tokens (4/20) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×7, liquidity N < min N ×6, mint authority still enabled (dev can print more tokens) ×2)"],"wins":1,"swaps":151,"winRate":36.507936507936506,"totalPnlSol":0.20832515781055883,"medianHoldMin":13.8,"windowDays":6.938703703703704},"HPpB8vhRSquyy6eoMjWhA2cevfcxLrNQkjG3tizL9PY4":{"ts":1793572155258,"passed":false,"reasons":["only 10% of their recent tokens (1/10) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×5, deployer has minted N times (max N) ×3, mint authority still enabled (dev can print more tokens) ×1)","only 6 completed round trips — too few to judge (want 10+)","negative realized PnL (-0.70 SOL) over the sampled window"],"wins":1,"swaps":25,"winRate":33.33333333333333,"totalPnlSol":-0.6990041233827327,"medianHoldMin":142.99166666666667,"windowDays":2.722141203703704},"HuaXAx9h3SNC5ej6JoBfmJvf28U9aHiCyp9bKj28PFjd":{"ts":1793572157757,"passed":false,"reasons":["only 21% of their recent tokens (3/14) would pass your filters — you'd block nearly every buy they make (mostly: mint authority still enabled (dev can print more tokens) ×5, deployer has minted N times (max N) ×4, liquidity N < min N ×2)"],"wins":1,"swaps":19,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.3139814814814815},"B2vQm4qZcU3Ag84uBE1MoHqgsMUTbzMz8EMT8StLCXwW":{"ts":1793572160258,"passed":false,"reasons":["only 22% of their recent tokens (2/9) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×4, deployer has minted N times (max N) ×3)"],"wins":1,"swaps":50,"winRate":31.57894736842105,"totalPnlSol":-1.6991472196447956,"medianHoldMin":1188.1583333333333,"windowDays":5.405972222222222},"2mCkXKAChhX4fgdiNK3UafRcmNaW2YrNkwwmKAhGcwV7":{"ts":1793572160832,"passed":false,"reasons":["only 1 completed round trips — too few to judge (want 10+)"],"wins":1,"swaps":3,"winRate":100,"totalPnlSol":0.027085514000000005,"medianHoldMin":283.81666666666666,"windowDays":0.2461111111111111},"GvA2HwMaFQHCLKYvL7mRNqhFXp8zQqMgMcqKvkaXZmhZ":{"ts":1793572161827,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":3,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.40572916666666664},"2N2A5T85M9aoRLuKJeQZHn1MMoF39WyAoxuxvjN5zqpY":{"ts":1793572165273,"passed":false,"reasons":["only 6% of their recent tokens (1/16) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×7, deployer has minted N times (max N) ×6, mint authority still enabled (dev can print more tokens) ×2)"],"wins":1,"swaps":154,"winRate":62.06896551724138,"totalPnlSol":0.4587118923534063,"medianHoldMin":606.6333333333333,"windowDays":29.81946759259259}},"scanCount":204,"lastScanAt":1793572105568,"budget":{"day":"2026-11-02","birdeyeCu":0,"heliusCredits":19},"policy":5,"sourceStats":{"birdeye":{"nominated":3036,"vetted":256,"passed":13,"screened":102},"crawl":{"nominated":1359,"vetted":981,"passed":81,"screened":101},"winners":{"nominated":1893,"vetted":229,"passed":15,"screened":53}},"stableSwept":true}
 
 ===== LOG (last 200 lines) =====
-2026-11-01T19:25:09+00:00 Copytrader copytrader[469532]: [2026-11-01T19:25:09.825Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold So11111111111111111111111111111111111111112 -> bought BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump (sig EE8fAeZJ4oToQPMyi6vie2MzKMgyeyFj9dzzLAkctR4XzFL38NRgo1uyWMDyHaaJGoLFo2NZk5b9EfMbx8UoeSb)
-2026-11-01T19:25:10+00:00 Copytrader copytrader[469532]: [2026-11-01T19:25:10.170Z] [INFO] Token GTA passed filters: liq $117792, age 96753m, 5557 holders, top-holders 21.6%, organic 54, LP locked 100%, RugCheck score 1, 1h -6%, buy/sell 1.83
-2026-11-01T19:25:10+00:00 Copytrader copytrader[469532]: [2026-11-01T19:25:10.280Z] [INFO] Conviction for BsbsB3WL: 1.0 wallet(s) → x1, target 0.0500 SOL, already 0.0000, buying 0.0500
-2026-11-01T19:25:10+00:00 Copytrader copytrader[469532]: [2026-11-01T19:25:10.287Z] [WARN] Blocked copy of CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw's buy of BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump: bot is paused (circuit breaker (trip 9): 0.378 SOL drawdown from peak realized PnL)
-2026-11-01T19:25:10+00:00 Copytrader copytrader[469532]: [2026-11-01T19:25:10.731Z] [INFO] Copy lag blocked: their tx → seen 1.1s, parse 0.8s
-2026-11-01T19:27:45+00:00 Copytrader copytrader[469532]: [2026-11-01T19:27:45.168Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold 96egraTCizRpzNx4WvMMhPJf7TKS7W5kUHeenmd1XfuN -> bought So11111111111111111111111111111111111111112 (sig 4pNkgV2uYuSHZoxhwJy4SHWdAyD7UJ59MVkgZuxNM5f3smSREjzXy5sFuTzpNbUtjFDTmyV1FBYAdw2ATwgBFqW9)
 2026-11-01T19:27:45+00:00 Copytrader copytrader[469532]: [2026-11-01T19:27:45.168Z] [INFO] Ignoring swap we can't act on (sig 4pNkgV2uYuSHZoxhwJy4SHWdAyD7UJ59MVkgZuxNM5f3smSREjzXy5sFuTzpNbUtjFDTmyV1FBYAdw2ATwgBFqW9): 96egra -> So1111
 2026-11-01T19:30:30+00:00 Copytrader copytrader[469532]: [2026-11-01T19:30:30.439Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold 8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump -> bought So11111111111111111111111111111111111111112 (sig y2F4BvJZqifkGsDEcrqJQtwisVsM1QtRkxbnpmbBVE8nMiHwyzxkqdC6KfnBFgsPbvpwbxRqWPdRX6Tk6qDnJK2)
 2026-11-01T19:30:30+00:00 Copytrader copytrader[469532]: [2026-11-01T19:30:30.441Z] [INFO] Ignoring swap we can't act on (sig y2F4BvJZqifkGsDEcrqJQtwisVsM1QtRkxbnpmbBVE8nMiHwyzxkqdC6KfnBFgsPbvpwbxRqWPdRX6Tk6qDnJK2): 8pjfN5 -> So1111
@@ -725,3 +719,9 @@ last 5:
 2026-11-01T23:47:49+00:00 Copytrader copytrader[469532]: [2026-11-01T23:47:49.020Z] [INFO] Ignoring swap we can't act on (sig 5BLoVHSvbN7BKuegetY9sWWiDgk8PkAzPfosATBpScJAA92ajSV7K1jn2fkE7knQgHfTKDeYAAeU46VmNdY39TYT): 2RyCCR -> So1111
 2026-11-01T23:50:10+00:00 Copytrader copytrader[469532]: [2026-11-01T23:50:10.066Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold EkcTa8n14fXcHdfvZqCg72cTCutJnnKb19vcHwKTpump -> bought So11111111111111111111111111111111111111112 (sig 53uuBSXRSmMKsszmLx9yggnHrdnCoHJBQrcHQn7VBxhUFpZ3Rf8Cx42QpYdTxeJZYcsaMXhF3U1u9uJmyy94YszG)
 2026-11-01T23:50:10+00:00 Copytrader copytrader[469532]: [2026-11-01T23:50:10.066Z] [INFO] Ignoring swap we can't act on (sig 53uuBSXRSmMKsszmLx9yggnHrdnCoHJBQrcHQn7VBxhUFpZ3Rf8Cx42QpYdTxeJZYcsaMXhF3U1u9uJmyy94YszG): EkcTa8 -> So1111
+2026-11-01T23:57:35+00:00 Copytrader copytrader[469532]: [2026-11-01T23:57:35.225Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold So11111111111111111111111111111111111111112 -> bought BF8KiAF4E2vdSvKpour6kdN8zK9fA2fKUjmfeXknpump (sig 2dkWTLGo1ThpRo7LAbQYPqzed7pThcmykCUdgYFUXLvCjT8uKWCL8fWxoqwuWa4REivWFCtAoA1LwjVXbUb6d8T)
+2026-11-01T23:57:35+00:00 Copytrader copytrader[469532]: [2026-11-01T23:57:35.293Z] [WARN] Filtered out BF8KiAF4E2vdSvKpour6kdN8zK9fA2fKUjmfeXknpump: liquidity $4155 < min $30000
+2026-11-01T23:57:35+00:00 Copytrader copytrader[469532]: [2026-11-01T23:57:35.294Z] [INFO] Copy lag blocked: their tx → seen 0.5s, parse 0.8s
+2026-11-01T23:58:09+00:00 Copytrader copytrader[469532]: [2026-11-01T23:58:09.438Z] [INFO] Outcome follow-up: recorded 8 result(s) at the 6h mark.
+2026-11-01T23:58:09+00:00 Copytrader copytrader[469532]: [2026-11-01T23:58:09.559Z] [INFO] Outcome follow-up: recorded 6 result(s) at the 24h mark.
+2026-11-01T23:58:09+00:00 Copytrader copytrader[469532]: [2026-11-01T23:58:09.777Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
