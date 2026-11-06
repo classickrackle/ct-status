@@ -1,5 +1,5 @@
 COPYTRADER STATUS
-generated: 2026-11-06T09:50:15.925Z
+generated: 2026-11-06T10:00:25.929Z
 
 ===== SERVICE =====
 state:        active
@@ -398,15 +398,15 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
 🔎 Filter audit — what tokens did 6h after the signal
 
 Bought: 35 token(s): median +2%, 60% up, 9% up 50%+, 0% dead
-All blocked: 383 token(s): median -2%, 43% up, 6% up 50%+, 1% dead
+All blocked: 385 token(s): median -2%, 43% up, 6% up 50%+, 1% dead
 Token-to-token entries (not copied): 1 token(s): median +86%, 100% up, 100% up 50%+, 0% dead
 
 By rule
 · deployer has minted N times — 142 token(s): median -2%, 44% up, 7% up 50%+, 0% dead
-· liquidity N < min N — 134 token(s): median -7%, 43% up, 5% up 50%+, 0% dead
+· liquidity N < min N — 135 token(s): median -6%, 42% up, 5% up 50%+, 0% dead
 🛡 volume fading: last hour is N of the Nh average — 46 token(s): median -3%, 37% up, 7% up 50%+, 0% dead
 · sell pressure: N buys vs N sells in the last hour — 38 token(s): median +0%, 50% up, 5% up 50%+, 0% dead
-· organic score N (low) < min N — 24 token(s): median -1%, 50% up, 0% up 50%+, 8% dead
+· organic score N (low) < min N — 25 token(s): median +0%, 52% up, 0% up 50%+, 8% dead
 · top holders own N > max N — 23 token(s): median -0%, 43% up, 0% up 50%+, 0% dead
 🛡 organic score N < min N — 9 token(s): median -100%, 33% up, 33% up 50%+, 56% dead
 · mint authority still enabled — 9 token(s): median +0%, 56% up, 0% up 50%+, 0% dead
@@ -536,22 +536,16 @@ their tx -> our fill:    median 2.6s
 our entry vs theirs:     median +0.5%   worst +0.8%
 
 last 5:
-  08:50:07 blocked CARDSc   seen 0.4s  total -  gap -
   09:09:39 blocked 5sTBTk   seen 0.5s  total -  gap -
   09:13:18 blocked 9BYVxh   seen 0.5s  total -  gap -
   09:29:37 blocked 7SL2Vn   seen 0.7s  total -  gap -
   09:38:03 blocked CTPoyC   seen 0.9s  total -  gap -
+  09:59:29 blocked 3KfYWB   seen 0.3s  total -  gap -
 
 ===== DISCOVERY STATE =====
 …reasons":["no swaps in its latest 100 transactions — not a trader we can read"],"wins":1,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":2.1947337962962963},"DQV8AaxEnjzq3cYjXuQQtRUMMp8Kmq9rbtWYJhRVkxLm":{"ts":1793802521674,"passed":false,"reasons":["only 20% of their recent tokens (4/20) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×5, organic score N (low) < min N ×4, liquidity N < min N ×4)"],"wins":1,"swaps":49,"winRate":0,"totalPnlSol":-0.322250239,"medianHoldMin":234.38333333333333,"windowDays":8.590844907407407},"DaPPJLvUkVcK9PLsPftqK4nYFqkyRP4EViHR6wqUVB3E":{"ts":1793802522289,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":15,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":16.464131944444443},"9VseZ8Q3VsDtVAywLZENoZ1HHpZKbBFWpo29pUHH13tL":{"ts":1793802524154,"passed":false,"reasons":["only 10% of their recent tokens (2/20) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×8, deployer has minted N times (max N) ×7, mint authority still enabled (dev can print more tokens) ×2)"],"wins":1,"swaps":73,"winRate":20,"totalPnlSol":-19.420035589935612,"medianHoldMin":674.5333333333333,"windowDays":6.485439814814815},"yQQdEPWSHKvvVAsztHTdUAWS94amfCoMd5pskR9yiRx":{"ts":1793802529285,"passed":false,"reasons":["only 13% of their recent tokens (1/8) would pass your filters — you'd block nearly every buy they make (mostly: mint authority still enabled (dev can print more tokens) ×4, top holders own N > max N ×2, deployer has minted N times (max N) ×1)","only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":10,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":29.97716435185185},"BqVpwhWaq8eAdXAxwRYXAeK7f2b6DRp2moCnFH5hpqd":{"ts":1793802529965,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":11,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":1.0955671296296297},"9r4mAHkEnK7h1h5SR1XuY4CCd8K3qvzQ1ZpxjCzdnCgC":{"ts":1793802535160,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":11,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":29.976712962962964},"3HTsfRjd2BbiewegmGY2aYaJoFP1bn6HQCBpySvW6KtU":{"ts":1793802537663,"passed":false,"reasons":["only 17% of their recent tokens (2/12) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×7, liquidity N < min N ×3)"],"wins":1,"swaps":42,"winRate":48.148148148148145,"totalPnlSol":1.3940286027240603,"medianHoldMin":3419.6833333333334,"windowDays":21.96894675925926},"5wzPNoS7gWw2rRmmkA3YAUMtQiC5FbKQWt4UW2huvqP3":{"ts":1793802543270,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":12,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":29.976666666666667},"FFAEJfhR39ZVTPq1MxZEpsY4GmS4hpB264RU6BSfH9dG":{"ts":1793802543877,"passed":false,"reasons":["only 7 completed round trips — too few to judge (want 10+)","negative realized PnL (-7.55 SOL) over the sampled window"],"wins":1,"swaps":14,"winRate":0,"totalPnlSol":-7.546722709358281,"medianHoldMin":777.4,"windowDays":8.674699074074073}},"scanCount":212,"lastScanAt":1793802507627,"budget":{"day":"2026-11-06","birdeyeCu":0,"heliusCredits":231},"policy":5,"sourceStats":{"birdeye":{"nominated":3169,"vetted":271,"passed":14,"screened":111},"crawl":{"nominated":1514,"vetted":1055,"passed":89,"screened":116},"winners":{"nominated":2026,"vetted":245,"passed":17,"screened":61}},"stableSwept":true}
 
 ===== LOG (last 200 lines) =====
-2026-11-06T04:58:20+00:00 Copytrader copytrader[469532]: [2026-11-06T04:58:20.377Z] [INFO]   CRYVEn/AKotzk: tracked 25524 -> chain 0
-2026-11-06T04:58:20+00:00 Copytrader copytrader[469532]: [2026-11-06T04:58:20.378Z] [INFO]   CRYVEn/NTRNDM: tracked 163827 -> chain 89614
-2026-11-06T04:58:20+00:00 Copytrader copytrader[469532]: [2026-11-06T04:58:20.378Z] [INFO]   CRYVEn/Ai66LH: tracked 822 -> chain 0
-2026-11-06T04:58:20+00:00 Copytrader copytrader[469532]: [2026-11-06T04:58:20.378Z] [INFO]   CRYVEn/7KEPAp: tracked 62295 -> chain 0
-2026-11-06T05:04:55+00:00 Copytrader copytrader[469532]: [2026-11-06T05:04:55.139Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold So11111111111111111111111111111111111111112 -> bought 9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump (sig 5Uv7ip7setJ72j3WrwfU55vh8Nz3yPEfokukhgjKJGdqcv74FRfYbQGvP77Rwk4gZK9Tdti9Rvt3uYY1W69dbgKj)
-2026-11-06T05:04:55+00:00 Copytrader copytrader[469532]: [2026-11-06T05:04:55.430Z] [WARN] Filtered out 9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump: sell pressure: 183 buys vs 279 sells in the last hour (ratio 0.66, min 0.7)
 2026-11-06T05:04:55+00:00 Copytrader copytrader[469532]: [2026-11-06T05:04:55.431Z] [INFO] Copy lag blocked: their tx → seen 0.4s, parse 0.7s
 2026-11-06T05:05:39+00:00 Copytrader copytrader[469532]: [2026-11-06T05:05:39.067Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold 7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump -> bought So11111111111111111111111111111111111111112 (sig 4aeAAjrK8zwLKnxu81Suorp4Vre4rJuFgk4ptvjb7pR6HX1kcBwMDQR66KkhrxaX32MAJKBaiLe5bFiWCDvgyYSo)
 2026-11-06T05:05:39+00:00 Copytrader copytrader[469532]: [2026-11-06T05:05:39.067Z] [INFO] Ignoring swap we can't act on (sig 4aeAAjrK8zwLKnxu81Suorp4Vre4rJuFgk4ptvjb7pR6HX1kcBwMDQR66KkhrxaX32MAJKBaiLe5bFiWCDvgyYSo): 7HgfXf -> So1111
@@ -746,3 +740,9 @@ last 5:
 2026-11-06T09:44:43+00:00 Copytrader copytrader[469532]: [2026-11-06T09:44:43.987Z] [INFO] Ignoring swap we can't act on (sig 2CgDxBrq681EQ4M67Spmp6uTNGAA9N2VDmeZBVqi41Rm119aS9m7rDYqTXEy5R2Fjuk6BJz69cLbHEaaTKZaqWXU): 2obQEJ -> So1111
 2026-11-06T09:49:29+00:00 Copytrader copytrader[469532]: [2026-11-06T09:49:29.603Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold 5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8 -> bought So11111111111111111111111111111111111111112 (sig 3PEUN7MQ4kc4jSnt4XEukQCo9sBVdwDfDdafutz1H3LFXdpKdvR8npo9xcSFvRg465wnahEfGzfuSdC5zumEuNYR)
 2026-11-06T09:49:29+00:00 Copytrader copytrader[469532]: [2026-11-06T09:49:29.603Z] [INFO] Ignoring swap we can't act on (sig 3PEUN7MQ4kc4jSnt4XEukQCo9sBVdwDfDdafutz1H3LFXdpKdvR8npo9xcSFvRg465wnahEfGzfuSdC5zumEuNYR): 5Bjfgm -> So1111
+2026-11-06T09:58:09+00:00 Copytrader copytrader[469532]: [2026-11-06T09:58:09.608Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
+2026-11-06T09:58:09+00:00 Copytrader copytrader[469532]: [2026-11-06T09:58:09.877Z] [INFO] Outcome follow-up: recorded 5 result(s) at the 6h mark.
+2026-11-06T09:58:10+00:00 Copytrader copytrader[469532]: [2026-11-06T09:58:10.046Z] [INFO] Outcome follow-up: recorded 5 result(s) at the 24h mark.
+2026-11-06T09:59:30+00:00 Copytrader copytrader[469532]: [2026-11-06T09:59:30.080Z] [INFO] Detected swap by CiTuTZhG4hKpGcxJVwvcLr9ELdUE9g7uLU83VUdJTbCw: sold So11111111111111111111111111111111111111112 -> bought 3KfYWBRYG8rNUMUodzf2FdiQJrkxg6hPGQPv7pXzBAGS (sig 4RZd3tGKv7tCmWAeRqy76KZZNxV1Dad7af8oodZbztrzr6NXzjRX4NYCQa4xTUdSF42sC7GVQfe1tiaa2zGQCfZk)
+2026-11-06T09:59:30+00:00 Copytrader copytrader[469532]: [2026-11-06T09:59:30.172Z] [WARN] Filtered out 3KfYWBRYG8rNUMUodzf2FdiQJrkxg6hPGQPv7pXzBAGS: deployer has minted 192967 times (max 50)
+2026-11-06T09:59:30+00:00 Copytrader copytrader[469532]: [2026-11-06T09:59:30.173Z] [INFO] Copy lag blocked: their tx → seen 0.3s, parse 0.8s
