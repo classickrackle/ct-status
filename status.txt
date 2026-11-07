@@ -1,11 +1,11 @@
 COPYTRADER STATUS
-generated: 2026-11-07T17:27:15.913Z
+generated: 2026-11-07T17:37:45.925Z
 
 ===== SERVICE =====
 state:        active
 running since Fri 2026-11-06 23:43:08 UTC
 restarts:     0
-warn/err in last 24h: 106
+warn/err in last 24h: 105
 
 ===== AT A GLANCE =====
 followed wallets: 3
@@ -386,16 +386,7 @@ By rule
 Returns are from the signal price, before our lag and fees. Try /filters 6 for the 6-hour view.
 
 ===== WATCHLIST =====
-…wtGe18spump",
-     "symbol": "mihao",
-     "passes": true,
-     "reason": null,
-     "entryUsd": 0.0006715289807199478
-    },
-    {
-     "sig": "2EepRXP2ui5LtUY9H7mxbeMPRTrGQhXjWUrQN2dNovSMfqUYAmDW1rQvuXGNW1ND44AFUUcZsQmNyoJPLNppTPNN",
-     "ts": 1794052672000,
-     "mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+…rUJHacpMpUNgx",
      "symbol": "STONK",
      "passes": false,
      "reason": "deployer has minted 8483 times (max 50)",
@@ -494,17 +485,26 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
      "passes": false,
      "reason": "deployer has minted 2333 times (max 50)",
      "entryUsd": 0.005298621637116153
+    },
+    {
+     "sig": "4TnKVoDvHM81vK9meP8HCeyV1awoYJwDDRQfF2S4874xzv3UptUorRDwyPwX7jjwrxBwFuAPTirc9pD5KvtjoG9m",
+     "ts": 1794072291000,
+     "mint": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
+     "symbol": "GATO",
+     "passes": true,
+     "reason": null,
+     "entryUsd": 0.013560381874481716
     }
    ],
    "note": "passed vetting 2026-11-07",
-   "lastSig": "4ZUV6zDjnrnqBTAQ2eGsJPrFZbeZj9h7EeKbuvpaUsfv5ECdbbyCWbd2bmLUj7UGxGRf1jXxnHNHo4JCwv9PGY8P"
+   "lastSig": "4TnKVoDvHM81vK9meP8HCeyV1awoYJwDDRQfF2S4874xzv3UptUorRDwyPwX7jjwrxBwFuAPTirc9pD5KvtjoG9m"
   }
  },
- "lastPollAt": 1794071654542
+ "lastPollAt": 1794072552051
 }
 
 ===== COPY LAG (last 24h) =====
-signals: 56   fills: 0
+signals: 55   fills: 0
 their tx -> we see it:   median 0.6s
 their tx -> our fill:    median -
 our entry vs theirs:     median -   worst -
@@ -517,7 +517,7 @@ last 5:
   23:34:24 blocked 2wMTr4   seen 0.2s  total -  gap -
 
 ===== DISCOVERY STATE =====
-…, organic score N (low) < min N ×1)","only 9 completed round trips — too few to judge (want 10+)","negative realized PnL (-0.21 SOL) over the sampled window"],"wins":1,"swaps":26,"winRate":22.22222222222222,"totalPnlSol":-0.20926471191947615,"medianHoldMin":8746.966666666667,"windowDays":29.665046296296296},"52Xv94zeTfMhnv9Ns88bWkhpYQdDpKinmJkQYZwkBaiR":{"ts":1794065913635,"passed":false,"reasons":["about 4784 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":2,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"BAGDBRTK2ohDGksREKsGBDj2RDRJTYtWWEfWioxydWGj":{"ts":1794065916723,"passed":true,"reasons":[],"wins":1,"swaps":294,"winRate":90.20618556701031,"totalPnlSol":43.928201525959025,"medianHoldMin":5549.291666666667,"windowDays":29.738171296296297},"EGB6v3y5oS7Whv4KHYp8ksL2wRfqdfAF5Dbqq8kHXsZH":{"ts":1794065919221,"passed":false,"reasons":["only 0% of their recent tokens (0/10) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×7, Jupiter has flagged this token as suspicious (audit.isSus) ×1, mint authority still enabled (dev can print more tokens) ×1)"],"wins":2,"swaps":36,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.5295023148148148},"G8VZdCvywm6zKj96DZLUmGvh12oJgEVfM3Gr6YG4Vz6Z":{"ts":1794065924224,"passed":false,"reasons":["only 15% of their recent tokens (2/13) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×5, liquidity N < min N ×5, mint authority still enabled (dev can print more tokens) ×1)","only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":2,"swaps":207,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":29.62261574074074},"EokzBMxyZiQYn33hb6yEbKCnbAyXyJeVv2mDNChQGuo7":{"ts":1794065933911,"passed":false,"reasons":["only 13% of their recent tokens (1/8) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×4, mint authority still enabled (dev can print more tokens) ×1, Jupiter has flagged this token as suspicious (audit.isSus) ×1)"],"wins":2,"swaps":55,"winRate":11.11111111111111,"totalPnlSol":-0.8563384946852568,"medianHoldMin":335.78333333333336,"windowDays":5.577604166666666},"Hs86zUJmSW2LQLHT6AmniL4BbeTvMkxYJYMHkPrKrbTR":{"ts":1794065946448,"passed":false,"reasons":["only 1 completed round trips — too few to judge (want 10+)"],"wins":1,"swaps":113,"winRate":100,"totalPnlSol":0.00020133699967793406,"medianHoldMin":4293.766666666666,"windowDays":29.571064814814815},"C7eT5j9LBqA9pZW94aBpG8yWSyQvgskLVZJUrywAQDQZ":{"ts":1794065952975,"passed":true,"reasons":[],"wins":1,"swaps":734,"winRate":68.96551724137932,"totalPnlSol":15.616939971692988,"medianHoldMin":1243.4916666666666,"windowDays":20.03465277777778},"FzzpwofkzgFTQoEfTZcAxKcXnRRmhRVLvgmiAPFfoXJm":{"ts":1794065955393,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":14,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":29.18929398148148},"HSe5ZaFuyDuAKbkJRJig3nVQQW31QZDgGxmS6mykmitA":{"ts":1794065960039,"passed":false,"reasons":["copying them would have lost money: their trades averaged +2.9% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":1,"swaps":105,"winRate":77.77777777777779,"totalPnlSol":13.195992499999985,"medianHoldMin":2399.883333333333,"windowDays":29.981030092592594}},"scanCount":217,"lastScanAt":1794065891582,"budget":{"day":"2026-11-07","birdeyeCu":1170,"heliusCredits":27129},"policy":5,"sourceStats":{"birdeye":{"nominated":3348,"vetted":284,"passed":16,"screened":116},"crawl":{"nominated":1654,"vetted":1103,"passed":93,"screened":118},"winners":{"nominated":2155,"vetted":256,"passed":18,"screened":65}},"stableSwept":true}
+…, organic score N (low) < min N ×1)","only 9 completed round trips — too few to judge (want 10+)","negative realized PnL (-0.21 SOL) over the sampled window"],"wins":1,"swaps":26,"winRate":22.22222222222222,"totalPnlSol":-0.20926471191947615,"medianHoldMin":8746.966666666667,"windowDays":29.665046296296296},"52Xv94zeTfMhnv9Ns88bWkhpYQdDpKinmJkQYZwkBaiR":{"ts":1794065913635,"passed":false,"reasons":["about 4784 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":2,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"BAGDBRTK2ohDGksREKsGBDj2RDRJTYtWWEfWioxydWGj":{"ts":1794065916723,"passed":true,"reasons":[],"wins":1,"swaps":294,"winRate":90.20618556701031,"totalPnlSol":43.928201525959025,"medianHoldMin":5549.291666666667,"windowDays":29.738171296296297},"EGB6v3y5oS7Whv4KHYp8ksL2wRfqdfAF5Dbqq8kHXsZH":{"ts":1794065919221,"passed":false,"reasons":["only 0% of their recent tokens (0/10) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×7, Jupiter has flagged this token as suspicious (audit.isSus) ×1, mint authority still enabled (dev can print more tokens) ×1)"],"wins":2,"swaps":36,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.5295023148148148},"G8VZdCvywm6zKj96DZLUmGvh12oJgEVfM3Gr6YG4Vz6Z":{"ts":1794065924224,"passed":false,"reasons":["only 15% of their recent tokens (2/13) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×5, liquidity N < min N ×5, mint authority still enabled (dev can print more tokens) ×1)","only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":2,"swaps":207,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":29.62261574074074},"EokzBMxyZiQYn33hb6yEbKCnbAyXyJeVv2mDNChQGuo7":{"ts":1794065933911,"passed":false,"reasons":["only 13% of their recent tokens (1/8) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×4, mint authority still enabled (dev can print more tokens) ×1, Jupiter has flagged this token as suspicious (audit.isSus) ×1)"],"wins":2,"swaps":55,"winRate":11.11111111111111,"totalPnlSol":-0.8563384946852568,"medianHoldMin":335.78333333333336,"windowDays":5.577604166666666},"Hs86zUJmSW2LQLHT6AmniL4BbeTvMkxYJYMHkPrKrbTR":{"ts":1794065946448,"passed":false,"reasons":["only 1 completed round trips — too few to judge (want 10+)"],"wins":1,"swaps":113,"winRate":100,"totalPnlSol":0.00020133699967793406,"medianHoldMin":4293.766666666666,"windowDays":29.571064814814815},"C7eT5j9LBqA9pZW94aBpG8yWSyQvgskLVZJUrywAQDQZ":{"ts":1794065952975,"passed":true,"reasons":[],"wins":1,"swaps":734,"winRate":68.96551724137932,"totalPnlSol":15.616939971692988,"medianHoldMin":1243.4916666666666,"windowDays":20.03465277777778},"FzzpwofkzgFTQoEfTZcAxKcXnRRmhRVLvgmiAPFfoXJm":{"ts":1794065955393,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":14,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":29.18929398148148},"HSe5ZaFuyDuAKbkJRJig3nVQQW31QZDgGxmS6mykmitA":{"ts":1794065960039,"passed":false,"reasons":["copying them would have lost money: their trades averaged +2.9% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":1,"swaps":105,"winRate":77.77777777777779,"totalPnlSol":13.195992499999985,"medianHoldMin":2399.883333333333,"windowDays":29.981030092592594}},"scanCount":217,"lastScanAt":1794065891582,"budget":{"day":"2026-11-07","birdeyeCu":1170,"heliusCredits":27140},"policy":5,"sourceStats":{"birdeye":{"nominated":3348,"vetted":284,"passed":16,"screened":116},"crawl":{"nominated":1654,"vetted":1103,"passed":93,"screened":118},"winners":{"nominated":2155,"vetted":256,"passed":18,"screened":65}},"stableSwept":true}
 
 ===== LOG (last 200 lines) =====
 2026-11-06T23:40:07+00:00 Copytrader copytrader[648649]: [2026-11-06T23:40:07.127Z] [INFO] Auto-tune is off. Recommendations still appear on the dashboard for one-click apply.
