@@ -1,11 +1,11 @@
 COPYTRADER STATUS
-generated: 2026-11-10T08:20:15.933Z
+generated: 2026-11-10T08:30:15.954Z
 
 ===== SERVICE =====
 state:        active
 running since Fri 2026-11-06 23:43:08 UTC
 restarts:     0
-warn/err in last 24h: 22
+warn/err in last 24h: 23
 
 ===== AT A GLANCE =====
 followed wallets: 2
@@ -380,33 +380,7 @@ By rule
 Returns are from the signal price, before our lag and fees. Try /filters 6 for the 6-hour view.
 
 ===== WATCHLIST =====
-…TU11LPZxCfaAakssx6zf83LSUdTyQmBtLs653dDr96A7WUnEMKJyAgg4XQSGesBbsqj",
-     "ts": 1794253200000,
-     "mint": "BcHEaaTCvycPwwsJ9yQTXdHP9X2gCLkznDbZ8VySpump",
-     "symbol": "Jotchua",
-     "passes": true,
-     "reason": null,
-     "entryUsd": 0.001722835506552898,
-     "ret6h": -6.140318123778467
-    },
-    {
-     "sig": "5XzgbrLDEpVbRvRVpnXPSXvzsrUaATQWddXYA8ph7vwhRZYq6VWTtCfvfqgeEVqSE96wkdEAorVFbGkbQ3w2r9VQ",
-     "ts": 1794253211000,
-     "mint": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-     "symbol": "CYBERLEEK",
-     "passes": true,
-     "reason": null,
-     "entryUsd": 0.0014813738006531642,
-     "ret6h": 7.32448939029533
-    },
-    {
-     "sig": "5KsSKn1aQB4XyWqzEe7EWRSzAnVq6pLj4nt67Vkm9XXC9ZTeuiatWSh3dHjWStHSaq9FPLjmjVRi3oPfyEkYSCxH",
-     "ts": 1794253223000,
-     "mint": "21rKrtBzibPAZHAHQRzGiGDSh7XimCKB2a8VgsjZpump",
-     "symbol": "CHUD",
-     "passes": false,
-     "reason": "liquidity $23173 < min $30000",
-     "entryUsd": 0.00013941381695115268
+….00013941381695115268
     },
     {
      "sig": "55HiGGbmHYhGTqMnjsAfAcDgVQm7c3d3qVmEBCtrMc6XLYdsiUDW68B3EekiZC1uEhHeyGTcQjvdYNKu6rsh1BU5",
@@ -471,10 +445,37 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
      "passes": false,
      "reason": "deployer has minted 121 times (max 50)",
      "entryUsd": 0.0012136465807350131
+    },
+    {
+     "sig": "5vJ5Je31puhwaB4as3SrNNRK1JVY1qoRT8UDayJ9B43FiYwfQu16Ey4Dw56vm8YahNuMh4QeHDrYZS5YMeUnESm",
+     "ts": 1794299303000,
+     "mint": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+     "symbol": "CYBERLEEK",
+     "passes": true,
+     "reason": null,
+     "entryUsd": 0.0016263536707614762
+    },
+    {
+     "sig": "4gkX2RjCCXwKJGF763LGBiSh7HjZss18PjP2sDNDTep3SA5MUghVm6dnh1hQW4aR24d4gexLabr6SK2j2QvkoBQk",
+     "ts": 1794299312000,
+     "mint": "BcHEaaTCvycPwwsJ9yQTXdHP9X2gCLkznDbZ8VySpump",
+     "symbol": "Jotchua",
+     "passes": true,
+     "reason": null,
+     "entryUsd": 0.001591914552462034
+    },
+    {
+     "sig": "fg8LAn2DoSwTie8EZxpXpNkLKDaQ3xPfab2TiyaJshFFBqfWi1BWAjWbSswTDDPXMyCe2hP7A7QS8Ur11iYTyVw",
+     "ts": 1794299330000,
+     "mint": "21rKrtBzibPAZHAHQRzGiGDSh7XimCKB2a8VgsjZpump",
+     "symbol": "CHUD",
+     "passes": false,
+     "reason": "liquidity $23205 < min $30000",
+     "entryUsd": 0.00014104940576681983
     }
    ],
    "note": "passed vetting 2026-11-09",
-   "lastSig": "45MF6CZcvSmvQWBjhXNkQWjEKCT7mu3eKeP7sawPrxY8Kei7z3xHSNhshWn6RJZ6GV1aJJDSndemvvQbhx7DPsQU"
+   "lastSig": "fg8LAn2DoSwTie8EZxpXpNkLKDaQ3xPfab2TiyaJshFFBqfWi1BWAjWbSswTDDPXMyCe2hP7A7QS8Ur11iYTyVw"
   },
   "Ru6dHdZ5qx9rFG7hkueyhLktuWQ5J222GZe3BVCh9ZH": {
    "addedAt": 1794289164579,
@@ -486,10 +487,10 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
    "addedAt": 1794296336968,
    "buys": [],
    "note": "passed vetting 2026-11-10",
-   "lastSig": "3Q6kiyzx8fp1hTgMLB4HA4ZQKYrsKPZvNAL1iFaK2AiRwj8UaaGSMAqAcQgrcyD9LHQJwz4vdZB4UA6hKbUdNFU7"
+   "lastSig": "3ceS9ZwG8vZgwEYRSXwWU5nbj9Y5GV4YXVthyyLoUTZvMjzuGUp4kz2Et2uY6dgDFnV4XXQrN4BXztFXU8wuiq3p"
   }
  },
- "lastPollAt": 1794298461595
+ "lastPollAt": 1794299361268
 }
 
 ===== COPY LAG (last 24h) =====
@@ -501,12 +502,9 @@ our entry vs theirs:     median -   worst -
 last 5:
 
 ===== DISCOVERY STATE =====
-…s (max N) ×9, mint authority still enabled (dev can print more tokens) ×1)"],"wins":1,"swaps":95,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":3.6637037037037037},"GJvewfRjqTUPtx6WsBSUnaFbdgXwgXnWfpDyLm65T4YA":{"ts":1794296312307,"passed":false,"reasons":["about 49315 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":6,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"BPiunxZKqnVjfyGwxEGDJ8fo2Anc9KZW2w81gpbPRJV3":{"ts":1794296312590,"passed":false,"reasons":["about 2024 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":3,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"Fgej4SPuW282TdrQRfizRHAeRasNqCtAWZizL3jDqMdS":{"ts":1794296315450,"passed":false,"reasons":["about 2609 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":2,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"7RFbSiu9bo89gayvi7rKTf5S4dH2TVwVipzdNCERxNGN":{"ts":1794296318736,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":19,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":29.035428240740742},"CXJLdswWUT83tu7uFcqdJHZ9EvtKph3FARNdNQcju8ZU":{"ts":1794296320058,"passed":false,"reasons":["negative realized PnL (-0.13 SOL) over the sampled window","copying them would have lost money: their trades averaged -14.2% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":1,"swaps":27,"winRate":16.666666666666664,"totalPnlSol":-0.13240082500000014,"medianHoldMin":26.766666666666666,"windowDays":5.842314814814815},"2EoxwH9g87s1Jr8hbqRstWYZ46V8t31aDxVAHkCcYqm2":{"ts":1794296325010,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":28.83738425925926},"8Gdz4JLPE5TfysLKrP7pBd1su11zzaA25qYFWqZkr12A":{"ts":1794296325378,"passed":false,"reasons":["negative realized PnL (-1.85 SOL) over the sampled window","copying them would have lost money: their trades averaged -3.4% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":1,"swaps":38,"winRate":42.30769230769231,"totalPnlSol":-1.8525727998131383,"medianHoldMin":2190.2083333333335,"windowDays":27.956354166666667},"64J9NMdGsPKbbpjidtGjdhoT9G4pMyfRBTygWPPGUHVM":{"ts":1794296325751,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.32163194444444443},"CKoc2P5S3VXPqFCqU9tEWnzkfpCjfi5GgSBkYNy51XNf":{"ts":1794296327519,"passed":false,"reasons":["only 5% of their recent tokens (1/20) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×10, deployer has minted N times (max N) ×8, mint authority still enabled (dev can print more tokens) ×1)"],"wins":1,"swaps":56,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":4.37494212962963},"DqgH42xYE2xKiCH7wzoyQahHWSCtjun7ACTncXJwyz22":{"ts":1794296336907,"passed":true,"reasons":[],"wins":1,"swaps":498,"winRate":56.43564356435643,"totalPnlSol":14.953246111791842,"medianHoldMin":2521.7833333333333,"windowDays":16.028518518518517}},"scanCount":248,"lastScanAt":1794296300327,"budget":{"day":"2026-11-10","birdeyeCu":810,"heliusCredits":20368},"policy":5,"sourceStats":{"birdeye":{"nominated":3848,"vetted":325,"passed":17,"screened":130},"crawl":{"nominated":2063,"vetted":1339,"passed":105,"screened":130},"winners":{"nominated":2594,"vetted":295,"passed":19,"screened":79}},"stableSwept":true}
+…s (max N) ×9, mint authority still enabled (dev can print more tokens) ×1)"],"wins":1,"swaps":95,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":3.6637037037037037},"GJvewfRjqTUPtx6WsBSUnaFbdgXwgXnWfpDyLm65T4YA":{"ts":1794296312307,"passed":false,"reasons":["about 49315 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":6,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"BPiunxZKqnVjfyGwxEGDJ8fo2Anc9KZW2w81gpbPRJV3":{"ts":1794296312590,"passed":false,"reasons":["about 2024 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":3,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"Fgej4SPuW282TdrQRfizRHAeRasNqCtAWZizL3jDqMdS":{"ts":1794296315450,"passed":false,"reasons":["about 2609 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":2,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"7RFbSiu9bo89gayvi7rKTf5S4dH2TVwVipzdNCERxNGN":{"ts":1794296318736,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":19,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":29.035428240740742},"CXJLdswWUT83tu7uFcqdJHZ9EvtKph3FARNdNQcju8ZU":{"ts":1794296320058,"passed":false,"reasons":["negative realized PnL (-0.13 SOL) over the sampled window","copying them would have lost money: their trades averaged -14.2% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":1,"swaps":27,"winRate":16.666666666666664,"totalPnlSol":-0.13240082500000014,"medianHoldMin":26.766666666666666,"windowDays":5.842314814814815},"2EoxwH9g87s1Jr8hbqRstWYZ46V8t31aDxVAHkCcYqm2":{"ts":1794296325010,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":28.83738425925926},"8Gdz4JLPE5TfysLKrP7pBd1su11zzaA25qYFWqZkr12A":{"ts":1794296325378,"passed":false,"reasons":["negative realized PnL (-1.85 SOL) over the sampled window","copying them would have lost money: their trades averaged -3.4% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":1,"swaps":38,"winRate":42.30769230769231,"totalPnlSol":-1.8525727998131383,"medianHoldMin":2190.2083333333335,"windowDays":27.956354166666667},"64J9NMdGsPKbbpjidtGjdhoT9G4pMyfRBTygWPPGUHVM":{"ts":1794296325751,"passed":false,"reasons":["only 0 completed round trips — too few to judge (want 10+)","negative realized PnL (0.00 SOL) over the sampled window"],"wins":1,"swaps":1,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0.32163194444444443},"CKoc2P5S3VXPqFCqU9tEWnzkfpCjfi5GgSBkYNy51XNf":{"ts":1794296327519,"passed":false,"reasons":["only 5% of their recent tokens (1/20) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×10, deployer has minted N times (max N) ×8, mint authority still enabled (dev can print more tokens) ×1)"],"wins":1,"swaps":56,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":4.37494212962963},"DqgH42xYE2xKiCH7wzoyQahHWSCtjun7ACTncXJwyz22":{"ts":1794296336907,"passed":true,"reasons":[],"wins":1,"swaps":498,"winRate":56.43564356435643,"totalPnlSol":14.953246111791842,"medianHoldMin":2521.7833333333333,"windowDays":16.028518518518517}},"scanCount":248,"lastScanAt":1794296300327,"budget":{"day":"2026-11-10","birdeyeCu":810,"heliusCredits":20391},"policy":5,"sourceStats":{"birdeye":{"nominated":3848,"vetted":325,"passed":17,"screened":130},"crawl":{"nominated":2063,"vetted":1339,"passed":105,"screened":130},"winners":{"nominated":2594,"vetted":295,"passed":19,"screened":79}},"stableSwept":true}
 
 ===== LOG (last 200 lines) =====
-2026-11-08T21:43:11+00:00 Copytrader copytrader[648692]: [2026-11-08T21:43:11.149Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-11-08T22:29:25+00:00 Copytrader copytrader[648692]: [2026-11-08T22:29:25.174Z] [INFO] Watchlist: dropped 1 wallet(s).
-2026-11-08T22:43:11+00:00 Copytrader copytrader[648692]: [2026-11-08T22:43:11.158Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
 2026-11-08T23:33:44+00:00 Copytrader copytrader[648692]: [2026-11-08T23:33:44.372Z] [WARN] WebSocket (Helius) closed. Reconnecting in 1000ms...
 2026-11-08T23:33:45+00:00 Copytrader copytrader[648692]: [2026-11-08T23:33:45.579Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
 2026-11-08T23:33:45+00:00 Copytrader copytrader[648692]: [2026-11-08T23:33:45.677Z] [INFO] All 2 wallet subscription(s) confirmed by Helius.
@@ -704,3 +702,6 @@ last 5:
 2026-11-10T07:42:54+00:00 Copytrader copytrader[648692]: [2026-11-10T07:42:54.297Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
 2026-11-10T07:42:54+00:00 Copytrader copytrader[648692]: [2026-11-10T07:42:54.377Z] [INFO] All 2 wallet subscription(s) confirmed by Helius.
 2026-11-10T07:43:11+00:00 Copytrader copytrader[648692]: [2026-11-10T07:43:11.194Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
+2026-11-10T08:21:18+00:00 Copytrader copytrader[648692]: [2026-11-10T08:21:18.696Z] [WARN] WebSocket (Helius) closed. Reconnecting in 1000ms...
+2026-11-10T08:21:19+00:00 Copytrader copytrader[648692]: [2026-11-10T08:21:19.893Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
+2026-11-10T08:21:19+00:00 Copytrader copytrader[648692]: [2026-11-10T08:21:19.975Z] [INFO] All 2 wallet subscription(s) confirmed by Helius.
