@@ -1,5 +1,5 @@
 COPYTRADER STATUS
-generated: 2026-11-14T17:53:02.092Z
+generated: 2026-11-14T18:03:15.904Z
 
 ===== SERVICE =====
 state:        active
@@ -380,16 +380,7 @@ By rule
 Returns are from the signal price, before our lag and fees. Try /filters 6 for the 6-hour view.
 
 ===== WATCHLIST =====
-…034033262595264087
-    },
-    {
-     "sig": "5ZKziv4wYg7NToBR4vSVLBp6bmngKKwUQUrEpdsVLQ5CrTfx473F3MMW4ojGZd9y7x3dgoragyCRYo3vQF9UPG4Z",
-     "ts": 1794528219000,
-     "mint": "DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump",
-     "symbol": "HODL",
-     "passes": false,
-     "reason": "liquidity $407 < min $30000",
-     "entryUsd": 0.0000019898377419024395
+…19898377419024395
     },
     {
      "sig": "3HjWcJXWMQgVJvqSWdWMzr4qQjYDjTEZsWkyvFtGxcCVFBZ4V8sGNFpGavysEHQWMtBcwGcMY8wAUYeWSJ6wZ1DL",
@@ -470,10 +461,19 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
      "passes": true,
      "reason": null,
      "entryUsd": 0.00027148938095013876
+    },
+    {
+     "sig": "2DY6gzLqvxucWxyZ8mUy6fPKwCUfozvCcrjbvGXAKtQxikQvytevBDwKsQK7oxvny2A9atDHwZwP3F78xnqRNPBj",
+     "ts": 1794678511000,
+     "mint": "8ryRQD6jWfxnSdvvVbQ8Tzwo1NgGP7w1X1nQPpb4pump",
+     "symbol": "meowl",
+     "passes": false,
+     "reason": "liquidity $29269 < min $30000",
+     "entryUsd": 0.0002509360220348929
     }
    ],
    "note": "passed vetting 2026-11-13",
-   "lastSig": "5oWrrvoST14NDSTzPED3q5PqTgmHzD2S6nfgJF8YSwq6WxBgeYFyj78a58Y8i8oc9K41dAUbN77bg6mQNHKaWdjV"
+   "lastSig": "2J2pXEDWdxYGvAFd6dD6jSYodcBDHD5rsvqnYmqnw6MXfGy9LuQsJZgFVMyjbUYoTcK6htM1r5QfBwUqjdFU5iFA"
   },
   "Gp7FgRiZVde1YEGxkofxRKUn18vDwGrHqLHZLorGZaSX": {
    "addedAt": 1794649200607,
@@ -485,10 +485,10 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
    "addedAt": 1794678001458,
    "buys": [],
    "note": "passed vetting 2026-11-14",
-   "lastSig": "ikbyT9XakbKhYKeVDx1uZdtETL9BJ17apRgPMnckfzCJEXu4upm3zdxPpW3YKxwrZa8Y8DeExiJ1UZutNnzzSAZ"
+   "lastSig": "5DcAm1BESEg7BN1pnDNgUHY6GxhiX9DqgmZ3gdJykm8L5TofHC5su5RjksYJDkkoGRJh6QecShgrcRiR5KZoeJZy"
   }
  },
- "lastPollAt": 1794678313854
+ "lastPollAt": 1794679213793
 }
 
 ===== COPY LAG (last 24h) =====
@@ -500,7 +500,7 @@ our entry vs theirs:     median -   worst -
 last 5:
 
 ===== DISCOVERY STATE =====
-…edianHoldMin":2865.675,"windowDays":6.677037037037037},"taSbVxjm3sYs4zBrMw38DSpDBTMB45v6aMRd4bZxthk":{"ts":1794677971514,"passed":false,"reasons":["only 0% of their recent tokens (0/9) would pass your filters — you'd block nearly every buy they make (mostly: Jupiter has flagged this token as suspicious (audit.isSus) ×4, deployer has minted N times (max N) ×4, liquidity N < min N ×1)"],"wins":1,"swaps":26,"winRate":0,"totalPnlSol":-5.7760405731320175,"medianHoldMin":542.875,"windowDays":1.3675347222222223},"FvZFd4Q8m2fgCFP6jPzGLDwBjDKKyxdKUs5ifqwD5F7W":{"ts":1794677978485,"passed":false,"reasons":["only 20% of their recent tokens (4/20) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×12, liquidity N < min N ×2, top holders own N > max N ×1)","negative realized PnL (-0.49 SOL) over the sampled window","copying them would have lost money: their trades averaged +4.8% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":1,"swaps":70,"winRate":38.70967741935484,"totalPnlSol":-0.48600082294655494,"medianHoldMin":508.7,"windowDays":17.58996527777778},"DmE6FaGvxFvV5vteincH3sfhuPMcDbJ7nSET5fhNjQhq":{"ts":1794677980968,"passed":false,"reasons":["median hold is 2.6m — this is a sniper/scalper. By the time your bot copies, the move is over."],"wins":1,"swaps":50,"winRate":35.294117647058826,"totalPnlSol":-0.24847070320603604,"medianHoldMin":2.6416666666666666,"windowDays":0.9588310185185185},"2rFZ8PFDDGPzDhewpeMs1JcZUmESEBcc6bghHxVemi7P":{"ts":1794677983469,"passed":false,"reasons":["only 0% of their recent tokens (0/20) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×17, liquidity N < min N ×2, mint authority still enabled (dev can print more tokens) ×1)","median hold is 4.4m — this is a sniper/scalper. By the time your bot copies, the move is over."],"wins":1,"swaps":60,"winRate":0,"totalPnlSol":-6.489048897440467,"medianHoldMin":4.366666666666666,"windowDays":0.4065972222222222},"38439eDFgYteQqa1TSse3r5GovzDx2CxMeBJALA1XskE":{"ts":1794677985971,"passed":false,"reasons":["only 2 completed round trips — too few to judge (want 10+)"],"wins":1,"swaps":9,"winRate":100,"totalPnlSol":1.001314188150694,"medianHoldMin":831.5,"windowDays":0.5921875},"GpBSPgeZxwRABzrcZjsYgU1eVtJ8HPzYa8YCZ2wSWT6q":{"ts":1794677990967,"passed":true,"reasons":[],"wins":1,"swaps":223,"winRate":77.99043062200957,"totalPnlSol":66.18633299763307,"medianHoldMin":663.8,"windowDays":12.704525462962962},"7DvWrsyXc8W72XdGUWmKHWTGZhZZmHP7nNvMSSgZU5mT":{"ts":1794677996384,"passed":false,"reasons":["negative realized PnL (-1.06 SOL) over the sampled window"],"wins":1,"swaps":210,"winRate":52.88461538461539,"totalPnlSol":-1.0572198525014425,"medianHoldMin":1626.6666666666667,"windowDays":29.88349537037037},"J3fqgHQFvLgH7vBkrrx683PjQAiCppVkDrvqcX2GvnQy":{"ts":1794677998881,"passed":false,"reasons":["negative realized PnL (-0.26 SOL) over the sampled window","copying them would have lost money: their trades averaged -65.3% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":1,"swaps":27,"winRate":0,"totalPnlSol":-0.25743747400000005,"medianHoldMin":876.7,"windowDays":24.800983796296297},"AX436EP8ko11R2aNvQN7HHcwLtpAynHd8PwfqFZogJgB":{"ts":1794678001431,"passed":false,"reasons":["only 8 completed round trips — too few to judge (want 10+)","negative realized PnL (-0.05 SOL) over the sampled window"],"wins":1,"swaps":20,"winRate":25,"totalPnlSol":-0.046607500999999885,"medianHoldMin":212.15,"windowDays":4.74537037037037}},"scanCount":288,"lastScanAt":1794677952645,"budget":{"day":"2026-11-14","birdeyeCu":30,"heliusCredits":32573},"policy":5,"sourceStats":{"birdeye":{"nominated":4322,"vetted":377,"passed":18,"screened":147},"crawl":{"nominated":2413,"vetted":1713,"passed":114,"screened":169},"winners":{"nominated":3039,"vetted":341,"passed":19,"screened":91}},"stableSwept":true}
+…edianHoldMin":2865.675,"windowDays":6.677037037037037},"taSbVxjm3sYs4zBrMw38DSpDBTMB45v6aMRd4bZxthk":{"ts":1794677971514,"passed":false,"reasons":["only 0% of their recent tokens (0/9) would pass your filters — you'd block nearly every buy they make (mostly: Jupiter has flagged this token as suspicious (audit.isSus) ×4, deployer has minted N times (max N) ×4, liquidity N < min N ×1)"],"wins":1,"swaps":26,"winRate":0,"totalPnlSol":-5.7760405731320175,"medianHoldMin":542.875,"windowDays":1.3675347222222223},"FvZFd4Q8m2fgCFP6jPzGLDwBjDKKyxdKUs5ifqwD5F7W":{"ts":1794677978485,"passed":false,"reasons":["only 20% of their recent tokens (4/20) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×12, liquidity N < min N ×2, top holders own N > max N ×1)","negative realized PnL (-0.49 SOL) over the sampled window","copying them would have lost money: their trades averaged +4.8% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":1,"swaps":70,"winRate":38.70967741935484,"totalPnlSol":-0.48600082294655494,"medianHoldMin":508.7,"windowDays":17.58996527777778},"DmE6FaGvxFvV5vteincH3sfhuPMcDbJ7nSET5fhNjQhq":{"ts":1794677980968,"passed":false,"reasons":["median hold is 2.6m — this is a sniper/scalper. By the time your bot copies, the move is over."],"wins":1,"swaps":50,"winRate":35.294117647058826,"totalPnlSol":-0.24847070320603604,"medianHoldMin":2.6416666666666666,"windowDays":0.9588310185185185},"2rFZ8PFDDGPzDhewpeMs1JcZUmESEBcc6bghHxVemi7P":{"ts":1794677983469,"passed":false,"reasons":["only 0% of their recent tokens (0/20) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×17, liquidity N < min N ×2, mint authority still enabled (dev can print more tokens) ×1)","median hold is 4.4m — this is a sniper/scalper. By the time your bot copies, the move is over."],"wins":1,"swaps":60,"winRate":0,"totalPnlSol":-6.489048897440467,"medianHoldMin":4.366666666666666,"windowDays":0.4065972222222222},"38439eDFgYteQqa1TSse3r5GovzDx2CxMeBJALA1XskE":{"ts":1794677985971,"passed":false,"reasons":["only 2 completed round trips — too few to judge (want 10+)"],"wins":1,"swaps":9,"winRate":100,"totalPnlSol":1.001314188150694,"medianHoldMin":831.5,"windowDays":0.5921875},"GpBSPgeZxwRABzrcZjsYgU1eVtJ8HPzYa8YCZ2wSWT6q":{"ts":1794677990967,"passed":true,"reasons":[],"wins":1,"swaps":223,"winRate":77.99043062200957,"totalPnlSol":66.18633299763307,"medianHoldMin":663.8,"windowDays":12.704525462962962},"7DvWrsyXc8W72XdGUWmKHWTGZhZZmHP7nNvMSSgZU5mT":{"ts":1794677996384,"passed":false,"reasons":["negative realized PnL (-1.06 SOL) over the sampled window"],"wins":1,"swaps":210,"winRate":52.88461538461539,"totalPnlSol":-1.0572198525014425,"medianHoldMin":1626.6666666666667,"windowDays":29.88349537037037},"J3fqgHQFvLgH7vBkrrx683PjQAiCppVkDrvqcX2GvnQy":{"ts":1794677998881,"passed":false,"reasons":["negative realized PnL (-0.26 SOL) over the sampled window","copying them would have lost money: their trades averaged -65.3% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":1,"swaps":27,"winRate":0,"totalPnlSol":-0.25743747400000005,"medianHoldMin":876.7,"windowDays":24.800983796296297},"AX436EP8ko11R2aNvQN7HHcwLtpAynHd8PwfqFZogJgB":{"ts":1794678001431,"passed":false,"reasons":["only 8 completed round trips — too few to judge (want 10+)","negative realized PnL (-0.05 SOL) over the sampled window"],"wins":1,"swaps":20,"winRate":25,"totalPnlSol":-0.046607500999999885,"medianHoldMin":212.15,"windowDays":4.74537037037037}},"scanCount":288,"lastScanAt":1794677952645,"budget":{"day":"2026-11-14","birdeyeCu":30,"heliusCredits":32595},"policy":5,"sourceStats":{"birdeye":{"nominated":4322,"vetted":377,"passed":18,"screened":147},"crawl":{"nominated":2413,"vetted":1713,"passed":114,"screened":169},"winners":{"nominated":3039,"vetted":341,"passed":19,"screened":91}},"stableSwept":true}
 
 ===== LOG (last 200 lines) =====
 2026-11-13T03:39:36+00:00 Copytrader copytrader[648692]: [2026-11-13T03:39:36.051Z] [INFO] Source scoreboard - birdeye: 18/374 passed (145 screened out, 4322 nominated) | crawl: 112/1541 passed (160 screened out, 2413 nominated) | winners: 19/338 passed (89 screened out, 3039 nominated)
