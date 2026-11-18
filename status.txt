@@ -1,11 +1,11 @@
 COPYTRADER STATUS
-generated: 2026-11-18T17:36:05.924Z
+generated: 2026-11-18T17:46:15.925Z
 
 ===== SERVICE =====
 state:        active
 running since Fri 2026-11-13 06:29:03 UTC
 restarts:     0
-warn/err in last 24h: 21
+warn/err in last 24h: 33
 
 ===== AT A GLANCE =====
 followed wallets: 2
@@ -494,7 +494,7 @@ Returns are from the signal price, before our lag and fees. Try /filters 6 for t
    "lastSig": "Lwxo8JDGbscZBeVuVWL8AXFB68193o7SN5ua35BScmjsEuJ4Jf1NB4sYuQigevXrgnFLhcjsK7QwhZ6BSk6LXQm"
   }
  },
- "lastPollAt": 1795023024258
+ "lastPollAt": 1795023924291
 }
 
 ===== COPY LAG (last 24h) =====
@@ -506,46 +506,9 @@ our entry vs theirs:     median -   worst -
 last 5:
 
 ===== DISCOVERY STATE =====
-…"ts":1794764359619,"passed":true,"reasons":[],"wins":2,"swaps":55,"winRate":100,"totalPnlSol":14.171320395477837,"medianHoldMin":3862.95,"windowDays":29.580335648148147},"eWfWeq8LPtaZKSagS3cSHeC3BqXSAbQdd2LbXkDHF5B":{"ts":1794764364473,"passed":false,"reasons":["only 14% of their recent tokens (2/14) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×10, liquidity N < min N ×2)"],"wins":2,"swaps":279,"winRate":83.33333333333334,"totalPnlSol":29.009064507157902,"medianHoldMin":2931.258333333333,"windowDays":29.585462962962964},"3RPBqhoE8GTmjkoeufkp9BbymXkKn1GmFhLgZUqY4y5V":{"ts":1794764370200,"passed":false,"reasons":["only 9 completed round trips — too few to judge (want 10+)"],"wins":2,"swaps":238,"winRate":66.66666666666666,"totalPnlSol":14.439873095314349,"medianHoldMin":1489.3166666666666,"windowDays":29.65943287037037},"Bf5i5AaLejNRSJ5L6KAnq47uiWT1VSKDxaYdJYP6DRK":{"ts":1794764370463,"passed":false,"reasons":["about 6240 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":2,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"FixukbsKfJZEr996ubcWvwTAt1b6QJ2SfP3FJsBSbH33":{"ts":1794764372669,"passed":false,"reasons":["only 10% of their recent tokens (2/20) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×9, deployer has minted N times (max N) ×8, top holders own N > max N ×1)","about 349 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch"],"wins":2,"swaps":44,"winRate":0,"totalPnlSol":-0.3310124352430388,"medianHoldMin":76.7,"windowDays":0.12609953703703702},"72bHZgpzVftkxMGU918ddPfwKXpxoR28wMd55NtsK2ft":{"ts":1794764375164,"passed":false,"reasons":["only 11% of their recent tokens (1/9) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×4, top holders own N > max N ×2, mint authority still enabled (dev can print more tokens) ×1)"],"wins":2,"swaps":45,"winRate":61.53846153846154,"totalPnlSol":9.554531099578497,"medianHoldMin":366.90833333333336,"windowDays":4.662951388888889},"GHVAFKUwboVSgP96j265ZZwdKAsnCckEVfu6CNKYaSRu":{"ts":1794764375629,"passed":false,"reasons":["no swaps in its latest 100 transactions — not a trader we can read"],"wins":2,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":2.2872222222222223},"B5U4XqBw4KyjC4HNEZiBQLizQaGCFJLmAJoThqjx24Jy":{"ts":1794764383476,"passed":false,"reasons":["only 5% of their recent tokens (1/20) would pass your filters — you'd block nearly every buy they make (mostly: mint authority still enabled (dev can print more tokens) ×6, deployer has minted N times (max N) ×5, liquidity N < min N ×4)","negative realized PnL (-53.63 SOL) over the sampled window","copying them would have lost money: their trades averaged -15.8% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":2,"swaps":636,"winRate":25.196850393700785,"totalPnlSol":-53.63376380661826,"medianHoldMin":967.4666666666667,"windowDays":16.01328703703704},"31Z4zcDJ1gShZNDhhQXUeT8JnMnqpH4EaJpeRhY3CH9y":{"ts":1794793173353,"passed":false,"reasons":["negative realized PnL (-6.98 SOL) over the sampled window","copying them would have lost money: their trades averaged +1.4% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":2,"swaps":265,"winRate":58.0246913580247,"totalPnlSol":-6.976126406442855,"medianHoldMin":862.5916666666667,"windowDays":7.907581018518519}},"scanCount":300,"lastScanAt":1795016363017,"budget":{"day":"2026-11-18","birdeyeCu":30,"heliusCredits":3672},"policy":5,"sourceStats":{"birdeye":{"nominated":4322,"vetted":411,"passed":19,"screened":163},"crawl":{"nominated":2413,"vetted":1811,"passed":117,"screened":182},"winners":{"nominated":3039,"vetted":360,"passed":19,"screened":99}},"stableSwept":true}
+…"ts":1794764359619,"passed":true,"reasons":[],"wins":2,"swaps":55,"winRate":100,"totalPnlSol":14.171320395477837,"medianHoldMin":3862.95,"windowDays":29.580335648148147},"eWfWeq8LPtaZKSagS3cSHeC3BqXSAbQdd2LbXkDHF5B":{"ts":1794764364473,"passed":false,"reasons":["only 14% of their recent tokens (2/14) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×10, liquidity N < min N ×2)"],"wins":2,"swaps":279,"winRate":83.33333333333334,"totalPnlSol":29.009064507157902,"medianHoldMin":2931.258333333333,"windowDays":29.585462962962964},"3RPBqhoE8GTmjkoeufkp9BbymXkKn1GmFhLgZUqY4y5V":{"ts":1794764370200,"passed":false,"reasons":["only 9 completed round trips — too few to judge (want 10+)"],"wins":2,"swaps":238,"winRate":66.66666666666666,"totalPnlSol":14.439873095314349,"medianHoldMin":1489.3166666666666,"windowDays":29.65943287037037},"Bf5i5AaLejNRSJ5L6KAnq47uiWT1VSKDxaYdJYP6DRK":{"ts":1794764370463,"passed":false,"reasons":["about 6240 transactions a day (screening limit 900) - far too fast to copy, rejected on a 1-credit check instead of a 1000-credit vet"],"wins":2,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":0},"FixukbsKfJZEr996ubcWvwTAt1b6QJ2SfP3FJsBSbH33":{"ts":1794764372669,"passed":false,"reasons":["only 10% of their recent tokens (2/20) would pass your filters — you'd block nearly every buy they make (mostly: liquidity N < min N ×9, deployer has minted N times (max N) ×8, top holders own N > max N ×1)","about 349 swaps a day (limit 300) — a bot or hyperactive scalper, too fast to copy and too expensive to watch"],"wins":2,"swaps":44,"winRate":0,"totalPnlSol":-0.3310124352430388,"medianHoldMin":76.7,"windowDays":0.12609953703703702},"72bHZgpzVftkxMGU918ddPfwKXpxoR28wMd55NtsK2ft":{"ts":1794764375164,"passed":false,"reasons":["only 11% of their recent tokens (1/9) would pass your filters — you'd block nearly every buy they make (mostly: deployer has minted N times (max N) ×4, top holders own N > max N ×2, mint authority still enabled (dev can print more tokens) ×1)"],"wins":2,"swaps":45,"winRate":61.53846153846154,"totalPnlSol":9.554531099578497,"medianHoldMin":366.90833333333336,"windowDays":4.662951388888889},"GHVAFKUwboVSgP96j265ZZwdKAsnCckEVfu6CNKYaSRu":{"ts":1794764375629,"passed":false,"reasons":["no swaps in its latest 100 transactions — not a trader we can read"],"wins":2,"swaps":0,"winRate":0,"totalPnlSol":0,"medianHoldMin":0,"windowDays":2.2872222222222223},"B5U4XqBw4KyjC4HNEZiBQLizQaGCFJLmAJoThqjx24Jy":{"ts":1794764383476,"passed":false,"reasons":["only 5% of their recent tokens (1/20) would pass your filters — you'd block nearly every buy they make (mostly: mint authority still enabled (dev can print more tokens) ×6, deployer has minted N times (max N) ×5, liquidity N < min N ×4)","negative realized PnL (-53.63 SOL) over the sampled window","copying them would have lost money: their trades averaged -15.8% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":2,"swaps":636,"winRate":25.196850393700785,"totalPnlSol":-53.63376380661826,"medianHoldMin":967.4666666666667,"windowDays":16.01328703703704},"31Z4zcDJ1gShZNDhhQXUeT8JnMnqpH4EaJpeRhY3CH9y":{"ts":1794793173353,"passed":false,"reasons":["negative realized PnL (-6.98 SOL) over the sampled window","copying them would have lost money: their trades averaged +1.4% (best trade left out), and each copy costs us about 10.0% in fees, slippage and delay"],"wins":2,"swaps":265,"winRate":58.0246913580247,"totalPnlSol":-6.976126406442855,"medianHoldMin":862.5916666666667,"windowDays":7.907581018518519}},"scanCount":301,"lastScanAt":1795023563070,"budget":{"day":"2026-11-18","birdeyeCu":30,"heliusCredits":3694},"policy":5,"sourceStats":{"birdeye":{"nominated":4322,"vetted":411,"passed":19,"screened":163},"crawl":{"nominated":2413,"vetted":1811,"passed":117,"screened":182},"winners":{"nominated":3039,"vetted":360,"passed":19,"screened":99}},"stableSwept":true}
 
 ===== LOG (last 200 lines) =====
-2026-11-16T16:07:24+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
-2026-11-16T16:07:25+00:00 Copytrader copytrader[727776]: [2026-11-16T16:07:25.360Z] [WARN] Telegram poll error: fetch failed
-2026-11-16T16:07:25+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
-2026-11-16T16:07:25+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
-2026-11-16T16:29:11+00:00 Copytrader copytrader[727776]: [2026-11-16T16:29:11.675Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-11-16T16:37:10+00:00 Copytrader copytrader[727776]: [2026-11-16T16:37:10.795Z] [WARN] WebSocket (Helius) closed. Reconnecting in 1000ms...
-2026-11-16T16:37:12+00:00 Copytrader copytrader[727776]: [2026-11-16T16:37:11.999Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
-2026-11-16T16:37:12+00:00 Copytrader copytrader[727776]: [2026-11-16T16:37:12.083Z] [INFO] All 2 wallet subscription(s) confirmed by Helius.
-2026-11-16T17:29:11+00:00 Copytrader copytrader[727776]: [2026-11-16T17:29:11.567Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-11-16T17:39:22+00:00 Copytrader copytrader[727776]: [2026-11-16T17:39:22.389Z] [WARN] Wallet hunt: Birdeye refused (Birdeye tokenlist failed (400): {"success":false,"message":"Compute units usage limit exceeded"}). Pausing Birdeye scans for 6h.
-2026-11-16T18:04:41+00:00 Copytrader copytrader[727776]: [2026-11-16T18:04:41.698Z] [WARN] WebSocket (Helius) closed. Reconnecting in 1000ms...
-2026-11-16T18:04:42+00:00 Copytrader copytrader[727776]: [2026-11-16T18:04:42.891Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
-2026-11-16T18:04:42+00:00 Copytrader copytrader[727776]: [2026-11-16T18:04:42.968Z] [INFO] All 2 wallet subscription(s) confirmed by Helius.
-2026-11-16T18:29:11+00:00 Copytrader copytrader[727776]: [2026-11-16T18:29:11.662Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-11-16T18:29:12+00:00 Copytrader copytrader[727776]: [2026-11-16T18:29:12.513Z] [INFO] Pruned 1 old backup(s), keeping the newest 20.
-2026-11-16T19:29:11+00:00 Copytrader copytrader[727776]: [2026-11-16T19:29:11.542Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-11-16T19:39:21+00:00 Copytrader copytrader[727776]: [2026-11-16T19:39:21.693Z] [INFO] Wallet hunt: no new candidates yet (tracking 1648 wallets' wins).
-2026-11-16T20:29:11+00:00 Copytrader copytrader[727776]: [2026-11-16T20:29:11.607Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-11-16T21:20:50+00:00 Copytrader copytrader[727776]: [2026-11-16T21:20:50.390Z] [WARN] WebSocket (Helius) closed. Reconnecting in 1000ms...
-2026-11-16T21:20:51+00:00 Copytrader copytrader[727776]: [2026-11-16T21:20:51.583Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
-2026-11-16T21:20:51+00:00 Copytrader copytrader[727776]: [2026-11-16T21:20:51.680Z] [INFO] All 2 wallet subscription(s) confirmed by Helius.
-2026-11-16T21:29:11+00:00 Copytrader copytrader[727776]: [2026-11-16T21:29:11.534Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-11-16T21:39:21+00:00 Copytrader copytrader[727776]: [2026-11-16T21:39:21.739Z] [INFO] Wallet hunt: no new candidates yet (tracking 1631 wallets' wins).
-2026-11-16T22:22:18+00:00 Copytrader copytrader[727776]: [2026-11-16T22:22:18.263Z] [WARN] WebSocket (Helius) closed. Reconnecting in 1000ms...
-2026-11-16T22:22:19+00:00 Copytrader copytrader[727776]: [2026-11-16T22:22:19.454Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
-2026-11-16T22:22:19+00:00 Copytrader copytrader[727776]: [2026-11-16T22:22:19.532Z] [INFO] All 2 wallet subscription(s) confirmed by Helius.
-2026-11-16T22:29:11+00:00 Copytrader copytrader[727776]: [2026-11-16T22:29:11.540Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-11-16T23:29:11+00:00 Copytrader copytrader[727776]: [2026-11-16T23:29:11.518Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-11-16T23:39:21+00:00 Copytrader copytrader[727776]: [2026-11-16T23:39:21.778Z] [INFO] Wallet hunt: no new candidates yet (tracking 1627 wallets' wins).
-2026-11-17T00:29:11+00:00 Copytrader copytrader[727776]: [2026-11-17T00:29:11.659Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
-2026-11-17T00:29:12+00:00 Copytrader copytrader[727776]: [2026-11-17T00:29:12.514Z] [INFO] Pruned 1 old backup(s), keeping the newest 20.
-2026-11-17T00:38:20+00:00 Copytrader copytrader[727776]: [2026-11-17T00:38:20.106Z] [WARN] WebSocket (Helius) closed. Reconnecting in 1000ms...
-2026-11-17T00:38:21+00:00 Copytrader copytrader[727776]: [2026-11-17T00:38:21.300Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
-2026-11-17T00:38:21+00:00 Copytrader copytrader[727776]: [2026-11-17T00:38:21.380Z] [INFO] All 2 wallet subscription(s) confirmed by Helius.
-2026-11-17T01:12:26+00:00 Copytrader copytrader[727776]: [2026-11-17T01:12:26.471Z] [WARN] Telegram poll error: The operation was aborted due to timeout
-2026-11-17T01:12:26+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
-2026-11-17T01:12:26+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
 2026-11-17T01:29:11+00:00 Copytrader copytrader[727776]: [2026-11-17T01:29:11.481Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
 2026-11-17T01:39:21+00:00 Copytrader copytrader[727776]: [2026-11-17T01:39:21.876Z] [INFO] Wallet hunt: Jupiter toptraded 24h - 4 of 100 passed your filters and rose 10%+ (top: BAWSAQ +21292%, JOB +84%, rockstar +11%); reading 4, 30d window.
 2026-11-17T01:39:22+00:00 Copytrader copytrader[727776]: [2026-11-17T01:39:22.465Z] [WARN] Wallet hunt: Birdeye refused (Birdeye top_traders failed (400): {"success":false,"message":"Compute units usage limit exceeded"}). Pausing Birdeye scans for 6h.
@@ -709,3 +672,40 @@ last 5:
 2026-11-18T17:02:46+00:00 Copytrader copytrader[727776]: [2026-11-18T17:02:46.065Z] [INFO] Helius WebSocket connected. Subscribing to target wallets...
 2026-11-18T17:02:46+00:00 Copytrader copytrader[727776]: [2026-11-18T17:02:46.146Z] [INFO] All 2 wallet subscription(s) confirmed by Helius.
 2026-11-18T17:29:11+00:00 Copytrader copytrader[727776]: [2026-11-18T17:29:11.574Z] [INFO] Reconciliation: no live positions to check. Wallet holds 0.0000 SOL.
+2026-11-18T17:39:23+00:00 Copytrader copytrader[727776]: [2026-11-18T17:39:23.692Z] [WARN] Wallet hunt: Birdeye refused (Birdeye tokenlist failed (400): {"success":false,"message":"Compute units usage limit exceeded"}). Pausing Birdeye scans for 6h.
+2026-11-18T17:43:39+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:39.995Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:39+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:39+00:00 Copytrader copytrader[727776]:     at async Timeout.poll [as _onTimeout] (file:///opt/copytrader/dist/telegram.js:150:25)
+2026-11-18T17:43:41+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:41.079Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:41+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:41+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-11-18T17:43:42+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:42.168Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:42+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:42+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-11-18T17:43:43+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:43.254Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:43+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:43+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-11-18T17:43:44+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:44.342Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:44+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:44+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-11-18T17:43:45+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:45.427Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:45+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:45+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-11-18T17:43:46+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:46.509Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:46+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:46+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-11-18T17:43:47+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:47.591Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:47+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:47+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-11-18T17:43:48+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:48.949Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:48+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:48+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-11-18T17:43:50+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:50.041Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:50+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:50+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-11-18T17:43:51+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:51.129Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:51+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:51+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-11-18T17:43:52+00:00 Copytrader copytrader[727776]: [2026-11-18T17:43:52.215Z] [WARN] Telegram poll error: fetch failed
+2026-11-18T17:43:52+00:00 Copytrader copytrader[727776]:     at node:internal/deps/undici/undici:15456:13
+2026-11-18T17:43:52+00:00 Copytrader copytrader[727776]:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
